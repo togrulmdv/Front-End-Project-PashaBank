@@ -1,0 +1,89 @@
+.umicoMasterPass {
+  & .connect {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    & .container {
+      width: 80%;
+      padding: 0px 20px;
+      display: flex;
+      flex-direction: column;
+      & .heading {
+        margin-bottom: 40px;
+        & h1 {
+          font-size: 35px;
+        }
+      }
+      & .main {
+        width: 100%;
+        & ul {
+          list-style: none;
+          display: flex;
+          gap: 20px;
+          & li {
+            padding: 20px;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            transition: 0.5s;
+            width: calc((100% - 40px) / 3);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 250px;
+            &:nth-child(2) {
+              & .btn {
+                margin-top: 35px !important;
+              }
+            }
+            &:hover {
+              box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+                rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+            }
+            & .top {
+              & button {
+                opacity: 0.8;
+                border: none;
+                padding: 10px 15px;
+                border-radius: 20px;
+                margin-right: 10px;
+                font-size: 15px;
+              }
+            }
+            & .head {
+              margin-top: 20px;
+              & h1 {
+                font-size: 20px;
+              }
+              & p {
+                margin-top: 10px;
+                color: $secondPcolor;
+                font-size: 18px;
+              }
+            }
+            & .btn {
+              margin-top: 50px;
+              & a {
+                text-decoration: none;
+                & button {
+                  cursor: pointer;
+                  font-size: 15px;
+                  border: none;
+                  background: transparent;
+                  color: $mainButtonColor;
+                  display: flex;
+                  align-items: center;
+                  & i {
+                    margin-left: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

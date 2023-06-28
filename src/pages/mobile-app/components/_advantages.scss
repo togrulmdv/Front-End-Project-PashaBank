@@ -1,0 +1,44 @@
+.biznesPasha {
+  & .advantages {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    & .container {
+      width: 80%;
+      padding: 0px 20px;
+      display: flex;
+      flex-direction: column;
+      & .heading {
+        & h1 {
+          font-size: 33px;
+          margin-bottom: 50px;
+        }
+      }
+      & .main {
+        width: 100%;
+        display: flex;
+        & .left {
+          & ul {
+            display: flex;
+            flex-direction: column;
+            gap: 60px;
+            & li {
+              padding: 20px;
+              display: flex;
+              align-items: center;
+              color: $secondPcolor;
+              & p {
+                font-size: 28px;
+              }
+              & i {
+                margin-right: 30px;
+                font-size: 17px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

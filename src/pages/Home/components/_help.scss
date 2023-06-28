@@ -1,0 +1,120 @@
+.help {
+  // display: flex;
+  // justify-content: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 750px;
+  width: 100%;
+
+  & .container {
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 0px 20px;
+    & .heading {
+      width: 50%;
+      & h1 {
+        color: rgba(0, 0, 0, 0.87);
+        font-size: 32px;
+        font-weight: 400;
+      }
+    }
+
+    & .methods {
+      width: 100%;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      & ul:first-child {
+        gap: 25px;
+
+        & .extra {
+          margin-top: 70px;
+        }
+        & li:first-child {
+          background: #e7f4f9;
+          background-image: url("https://sme.pashabank.az/themes/sme/assets/images/main-page/pos-terminal.png");
+          background-repeat: no-repeat;
+          background-position: 100%;
+        }
+        & li:last-child {
+          background: #ffebf0;
+          background-image: url("https://sme.pashabank.az/themes/sme/assets/images/main-page/business-cards.png");
+          background-repeat: no-repeat;
+          background-position: 100%;
+        }
+      }
+      & ul:last-child {
+        gap: 25px;
+
+        & li:first-child {
+          background: #fdf6e7;
+          background-image: url("https://sme.pashabank.az/themes/sme/assets/images/main-page/factoring.png");
+          background-repeat: no-repeat;
+          background-position: 100%;
+        }
+
+        & li:nth-child(2) {
+          background: #e0f3ed;
+          background-image: url("https://sme.pashabank.az/themes/sme/assets/images/main-page/e-commerce.png");
+          background-repeat: no-repeat;
+          background-position: 100%;
+        }
+        & li:last-child {
+          background: #f4f5f4;
+          background-image: url("https://sme.pashabank.az/themes/sme/assets/images/main-page/bank-guarantee.png");
+          background-repeat: no-repeat;
+          background-position: 100%;
+        }
+      }
+
+      & ul {
+        display: flex;
+        list-style-type: none;
+        width: 100%;
+
+        & a {
+          text-decoration: none;
+          width: 100%;
+          & h1 {
+            color: black;
+            font-size: 20px;
+            line-height: 28px;
+            font-weight: 500;
+          }
+          & p {
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 17px;
+            margin-top: 15px;
+          }
+        }
+        & li {
+          border-radius: 10px;
+          width: 100%;
+          transition: 0.8s;
+          &:hover {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          }
+
+          & .left {
+            height: 100%;
+            width: 50%;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 20px;
+
+            & .extra {
+              color: #099a71;
+              margin-top: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

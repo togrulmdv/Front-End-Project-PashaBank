@@ -1,0 +1,43 @@
+.conditions {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  & .container {
+    width: 80%;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    & .heading {
+      margin-bottom: 40px;
+      & h1 {
+        font-size: 35px;
+      }
+    }
+    & .main {
+      width: 1300px;
+      display: flex;
+      justify-content: center;
+      & table {
+        display: flex;
+        width: 1300px;
+        & tbody {
+          & tr {
+            display: flex;
+            align-items: normal;
+            & td {
+              width: 500px;
+              padding: 20px 10px;
+              & p {
+                color: $secondPcolor;
+              }
+              & h1 {
+                font-size: 17px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

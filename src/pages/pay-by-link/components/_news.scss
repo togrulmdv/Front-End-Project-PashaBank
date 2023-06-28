@@ -1,0 +1,45 @@
+.linkləOdəniş {
+  & .news {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://sme.pashabank.az/themes/sme/assets/images/pay-by-link/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -350px;
+    padding: 100px 20px;
+    height: 500px;
+
+    margin-top: 100px;
+    & .container {
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      & .main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        & .heading {
+          & h1 {
+            font-size: 45px;
+            color: white;
+          }
+        }
+        & .btn {
+          margin-top: 40px;
+          & a {
+            text-decoration: none;
+            & button {
+              background: $mainButtonColor;
+              border-radius: 5px;
+              border: none;
+              padding: 20px 40px;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

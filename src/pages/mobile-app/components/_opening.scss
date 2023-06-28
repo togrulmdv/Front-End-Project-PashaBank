@@ -1,0 +1,96 @@
+.biznesPasha {
+  margin-top: 70px;
+  width: 100%;
+  & .opening {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(240, 245, 255);
+    background-image: url("https://sme.pashabank.az/themes/sme/assets/images/mobile-app/mobile.png");
+    background-repeat: no-repeat;
+    background-size: 1050px;
+    background-position: 100%;
+    padding-bottom: 150px;
+    height: 550px;
+    & .container {
+      width: 80%;
+      padding: 0px 20px;
+      display: flex;
+      justify-content: space-between;
+
+      & .main {
+        margin-top: 50px;
+        & .heading {
+          & .images {
+            margin-top: 40px;
+            & img {
+              margin-right: 15px;
+              width: 160px;
+            }
+          }
+          & a {
+            text-decoration: none;
+            & button {
+              font-size: 15px;
+              padding: 12px 45px;
+              border: none;
+              cursor: pointer;
+              transition: 0.5s;
+              border-radius: 5px;
+              margin-top: 40px;
+              background: $mainButtonColor;
+              color: white;
+              &:hover {
+                opacity: 0.8;
+              }
+            }
+          }
+          & h1 {
+            margin: 20px 0px;
+            font-size: 65px;
+          }
+          & p {
+            color: $secondPcolor;
+            display: flex;
+            align-items: center;
+            font-size: 22px;
+            line-height: 27px;
+            & i {
+              margin: 0px 20px;
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.biznesPasha {
+  & .whatIs {
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    & .container {
+      display: flex;
+      justify-content: center;
+      width: 80%;
+
+      & .main {
+        width: 100%;
+        padding: 0px 20px;
+
+        & h1 {
+          font-size: 35px;
+          margin-bottom: 25px;
+        }
+        & p {
+          color: $secondPcolor;
+          font-size: 24px;
+          line-height: 27px;
+        }
+      }
+    }
+  }
+}

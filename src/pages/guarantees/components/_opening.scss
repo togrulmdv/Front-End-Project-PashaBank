@@ -1,0 +1,58 @@
+.bankQarantiyasi {
+  margin-top: 70px;
+  width: 100%;
+  & .opening {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(276.89deg, #fff8f8 -11.21%, #f9fcff 103.31%);
+
+    padding-bottom: 150px;
+    height: 460px;
+    & .container {
+      width: 80%;
+      padding: 0px 20px;
+      display: flex;
+      justify-content: space-between;
+
+      & .main {
+        margin-top: 80px;
+        & .heading {
+          & h1 {
+            margin: 20px 0px;
+            font-size: 50px;
+          }
+          & p {
+            color: $secondPcolor;
+            display: flex;
+            align-items: center;
+            font-size: 19px;
+            & i {
+              margin: 0px 20px;
+              font-size: 10px;
+            }
+          }
+        }
+        & .btn {
+          margin-top: 35px;
+          & a {
+            text-decoration: none;
+            & button {
+              padding: 18px 30px;
+              border: none;
+              border-radius: 5px;
+              color: white;
+              background: $mainButtonColor;
+              cursor: pointer;
+              transition: 0.5s;
+              &:hover {
+                opacity: 0.9;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

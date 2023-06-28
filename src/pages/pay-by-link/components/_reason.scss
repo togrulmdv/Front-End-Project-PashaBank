@@ -1,0 +1,107 @@
+.linkləOdəniş {
+  .reason {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    letter-spacing: 0.5px;
+    & .container {
+      margin-top: 40px;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      max-width: 1400px;
+      padding: 0px 20px;
+      & .heading {
+        & h1 {
+          font-size: 30px;
+        }
+        & p {
+          margin-top: 30px;
+          color: $secondPcolor;
+          font-size: 18px;
+        }
+      }
+
+      & .list {
+        margin-top: 60px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        p {
+          color: $mainPcolor;
+        }
+        & ul {
+          display: flex;
+          list-style: none;
+          gap: 10px;
+          width: 100%;
+
+          &:first-child {
+            & li:first-child {
+              & .first {
+                & .icon {
+                  background: rgb(224, 243, 237);
+                }
+              }
+              & i {
+                color: $mainButtonColor;
+              }
+            }
+            & li:nth-child(2) {
+              & .first {
+                & .icon {
+                  background: rgb(255, 235, 240);
+                }
+              }
+              & i {
+                color: red;
+              }
+            }
+            & li:last-child {
+              & .first {
+                & .icon {
+                  background: rgb(253, 246, 231);
+                }
+              }
+              & i {
+                color: orange;
+              }
+            }
+          }
+
+          & li {
+            display: flex;
+            width: calc((100% - 20px) / 3);
+            & .second {
+              margin-left: 10px;
+              & h1 {
+                margin-bottom: 15px;
+              }
+              & p {
+                font-size: 17px;
+              }
+            }
+
+            & .first {
+              height: 60px;
+              min-width: 60px;
+              & .icon {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+
+                & i {
+                  font-size: 25px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

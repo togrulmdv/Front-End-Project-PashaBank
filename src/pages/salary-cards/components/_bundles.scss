@@ -1,0 +1,139 @@
+.emekHaqqiLayihesi {
+  letter-spacing: 0.5px;
+  & .bundles {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    & .container {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+
+      & .heading {
+        margin-bottom: 20px;
+        & h1 {
+          font-size: 30px;
+        }
+      }
+
+      & .main {
+        margin-top: 20px;
+        text-align: center;
+        & .list3 {
+          display: flex;
+          gap: 20px;
+          & .li3 {
+            width: calc((100% - 40px) / 3);
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            & .headingSecond {
+              margin-bottom: 30px;
+              & h1 {
+                margin: 15px 0px 20px 0px;
+              }
+              & p {
+                color: $secondPcolor;
+              }
+            }
+            & .btn {
+              margin-top: 20px;
+              width: 100%;
+              & a {
+                & button {
+                  width: 100%;
+                  padding: 10px 0px;
+                  border-radius: 4px;
+                  border: none;
+                  background: $mainButtonColor;
+                  color: white;
+                  cursor: pointer;
+                  transition: 0.5s;
+                  &:hover {
+                    opacity: 0.9;
+                  }
+                }
+              }
+            }
+            & .info {
+              display: flex;
+              flex-direction: column;
+              & ul {
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+
+                & li {
+                  display: flex;
+                  text-align: start;
+                  & i {
+                    margin-right: 10px;
+                  }
+                  & i,
+                  b {
+                    color: $mainButtonColor;
+                  }
+                }
+              }
+            }
+            & .numbers {
+              margin-bottom: 30px;
+              width: 100%;
+              & ul {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                & li {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  & i {
+                    font-size: 25px;
+                  }
+                  &:last-child {
+                    & .right {
+                      color: $secondPcolor;
+                    }
+                  }
+                  & .right {
+                    display: flex;
+                    align-items: center;
+                    color: $mainButtonColor;
+                    & h1 {
+                      font-size: 35px;
+                    }
+                  }
+                  & .left {
+                    display: flex;
+                    gap: 10px;
+                  }
+                  &:nth-child(2) {
+                    & .left {
+                      gap: 5px;
+                      flex-direction: column;
+                      & .bottom,
+                      .top {
+                        display: flex;
+                        gap: 10px;
+                      }
+                    }
+                  }
+                  &:last-child {
+                    & p {
+                      color: $secondPcolor;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

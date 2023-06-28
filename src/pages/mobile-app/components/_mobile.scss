@@ -1,0 +1,75 @@
+.biznesPasha {
+  margin-top: 70px;
+  width: 100%;
+  & .mobile {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(240, 245, 255);
+    background-image: url("https://sme.pashabank.az/themes/sme/assets/images/mobile-app/app.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
+    padding-bottom: 150px;
+    height: 400px;
+    & .container {
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+
+      & .main {
+        margin-top: 50px;
+        & .heading {
+          & .images {
+            display: flex;
+            margin-top: 40px;
+            align-items: center;
+            gap: 20px;
+            & .left {
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              & img {
+                width: 140px;
+                cursor: pointer;
+              }
+            }
+          }
+          & a {
+            text-decoration: none;
+            & button {
+              font-size: 15px;
+              padding: 12px 45px;
+              border: none;
+              cursor: pointer;
+              transition: 0.5s;
+              border-radius: 5px;
+              margin-top: 40px;
+              background: $mainButtonColor;
+              color: white;
+              &:hover {
+                opacity: 0.8;
+              }
+            }
+          }
+          & h1 {
+            margin: 20px 0px;
+            font-size: 35px;
+          }
+          & p {
+            color: $secondPcolor;
+            display: flex;
+            align-items: center;
+            font-size: 22px;
+            line-height: 27px;
+            & i {
+              margin: 0px 20px;
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

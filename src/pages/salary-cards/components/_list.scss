@@ -1,0 +1,61 @@
+.emekHaqqiLayihesi {
+  margin-top: 80px;
+  width: 100%;
+  & .list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    & .container {
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      max-width: 1400px;
+
+      & .main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        & ul {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          list-style: none;
+          flex-wrap: wrap;
+          gap: 20px;
+          & li {
+            transition: 0.5s;
+            border-radius: 10px;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 30px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            & .par {
+              & p {
+                font-size: 25px;
+              }
+            }
+
+            & .heading {
+              & h1 {
+                font-size: 50px;
+              }
+              & i {
+                font-size: 40px;
+              }
+            }
+            &:hover {
+              box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+                rgba(0, 0, 0, 0.12) 0px -12px 30px,
+                rgba(0, 0, 0, 0.12) 0px 4px 6px,
+                rgba(0, 0, 0, 0.17) 0px 12px 13px,
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

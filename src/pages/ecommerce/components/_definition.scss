@@ -1,0 +1,75 @@
+.definition {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  & .container {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    & .heading {
+      & h1 {
+        font-size: 35px;
+        letter-spacing: 0.5px;
+      }
+      & p {
+        margin-top: 30px;
+        color: $secondPcolor;
+        font-size: 23px;
+      }
+    }
+    & .main {
+      margin-top: 60px;
+      & ul {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        & li {
+          background: #fafafa;
+          width: calc((100% - 30px) / 3);
+          padding: 20px;
+          & .icon {
+            margin-bottom: 12px;
+            & i {
+              font-size: 40px;
+            }
+          }
+          & .head {
+            margin-bottom: 10px;
+            & h1 {
+              font-size: 22px;
+            }
+          }
+          & .par {
+            & p {
+              font-size: 22px;
+              color: $secondPcolor;
+            }
+          }
+          &:first-child {
+            & .icon {
+              & i {
+                color: $mainButtonColor;
+              }
+            }
+          }
+          &:nth-child(2) {
+            & .icon {
+              & i {
+                color: yellow;
+              }
+            }
+          }
+          &:last-child {
+            & .icon {
+              & i {
+                color: red;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

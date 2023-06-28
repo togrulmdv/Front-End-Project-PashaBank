@@ -1,0 +1,77 @@
+.biznesPasha {
+  & .whoCan {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    & .container {
+      width: 80%;
+      padding: 0px 20px;
+      display: flex;
+      flex-direction: column;
+      & .heading {
+        margin-bottom: 50px;
+        & h1 {
+          font-size: 35px;
+        }
+        & p {
+          margin-top: 40px;
+          color: $secondPcolor;
+          font-size: 23px;
+        }
+      }
+      & .main {
+        width: 100%;
+        & ul {
+          display: flex;
+          width: 100%;
+          gap: 20px;
+          & li {
+            background: #fafafa;
+            width: calc((100% - 40px) / 3);
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            &:first-child {
+              & .icon {
+                & i {
+                  color: $mainButtonColor;
+                }
+              }
+            }
+            &:nth-child(2) {
+              & .icon {
+                & i {
+                  color: rgba($color: yellow, $alpha: 0.8);
+                }
+              }
+            }
+            &:last-child {
+              & .icon {
+                & i {
+                  color: orange;
+                }
+              }
+            }
+            & .icon {
+              & i {
+                font-size: 42px;
+              }
+            }
+            & .head {
+              margin-top: 20px;
+              letter-spacing: 0.5px;
+            }
+            & .par {
+              margin-top: 20px;
+              & p {
+                color: $secondPcolor;
+                font-size: 22px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

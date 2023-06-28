@@ -1,0 +1,49 @@
+.biznesKartlar {
+  margin-top: 70px;
+  width: 100%;
+  & .inform {
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    & .container {
+      width: 70%;
+      display: flex;
+      justify-content: center;
+
+      & .right {
+        margin-left: 100px;
+        & img {
+          width: 600px;
+          height: 300px;
+        }
+      }
+
+      & .left {
+        display: flex;
+        flex-direction: column;
+        & .head {
+          margin-bottom: 30px;
+          & h1 {
+            font-size: 35px;
+          }
+
+          & h2 {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            font-size: 30px;
+          }
+          & h3 {
+            font-size: 25px;
+          }
+        }
+        & .par {
+          color: $secondPcolor;
+          width: 450px;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+}

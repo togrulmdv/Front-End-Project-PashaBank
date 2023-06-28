@@ -1,0 +1,59 @@
+.biznesKreditləri {
+  & .form {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    & .container {
+      width: 80%;
+      padding: 0px 20px;
+      display: flex;
+      flex-direction: column;
+      & .heading {
+        margin-bottom: 50px;
+        & h1 {
+          font-size: 35px;
+        }
+      }
+      & .main {
+        margin-bottom: 70px;
+        width: 100%;
+        & form {
+          border-radius: 7px;
+          box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+          padding: 20px;
+          display: flex;
+          gap: 30px;
+          & input {
+            width: 360px;
+            padding: 20px;
+            border-radius: 5px;
+            border: 1px solid rgba($color: black, $alpha: 0.1);
+            &::placeholder {
+              font-size: 15px;
+            }
+            &:focus {
+              outline-color: $mainButtonColor;
+              &::placeholder {
+                color: $mainButtonColor;
+              }
+            }
+          }
+
+          & a {
+            text-decoration: none;
+            & button {
+              cursor: pointer;
+              background: $mainButtonColor;
+              border: none;
+              color: white;
+              border-radius: 5px;
+              width: 360px;
+              padding: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

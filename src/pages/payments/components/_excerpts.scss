@@ -1,0 +1,62 @@
+.excerpts {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  & .container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    & .all {
+      display: flex;
+    }
+    & .main {
+      & .heading {
+        margin-bottom: 20px;
+        & h1 {
+          font-size: 30px;
+        }
+      }
+      & ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        & li {
+          display: flex;
+          margin: 10px 0px;
+          width: 280px;
+          & p {
+            color: $secondPcolor;
+          }
+          & i {
+            margin-right: 10px;
+            color: $mainButtonColor;
+          }
+        }
+      }
+      & .btn {
+        margin-top: 30px;
+        & a {
+          & button {
+            cursor: pointer;
+            padding: 20px 50px;
+            border: none;
+            background: $mainButtonColor;
+            border-radius: 5px;
+            color: white;
+          }
+        }
+      }
+    }
+    & .image {
+      margin-left: 200px;
+      border-radius: 20px;
+      width: 600px;
+      height: 600px;
+
+      background-image: url("https://sme.pashabank.az/themes/sme/assets/images/payments/ipad-bg.png");
+      background-repeat: no-repeat;
+      background-size: 500px;
+    }
+  }
+}

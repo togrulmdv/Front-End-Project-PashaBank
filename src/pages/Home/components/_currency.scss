@@ -1,0 +1,92 @@
+.currency {
+  display: flex;
+  justify-content: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+  letter-spacing: 1px;
+  height: 400px;
+  & .container {
+    width: 90%;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    & .heading {
+      margin-bottom: 40px;
+      & h1 {
+        margin-bottom: 10px;
+        font-size: 35px;
+        font-weight: 400;
+      }
+      & p {
+        color: $secondPcolor;
+        font-size: 15px;
+      }
+    }
+    & .btn {
+      margin-top: 40px;
+      & a {
+        text-decoration: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        & button {
+          cursor: pointer;
+
+          border: none;
+          background: transparent;
+          color: #058d66;
+          display: flex;
+          align-items: center;
+          & i {
+            margin-left: 8px;
+          }
+        }
+      }
+    }
+    & .main {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      & .col {
+        width: 100%;
+        & table {
+          padding: 20px;
+          width: 100%;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border-radius: 6px;
+
+
+          & th {
+            text-align: start;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.6);
+          }
+          & td {
+            padding: 10px 20px;
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 20px;
+            font-weight: 400;
+          }
+
+          & .country {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            & h1 {
+              font-size: 20px;
+            font-weight: 400;
+
+            }
+            & img {
+              width: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

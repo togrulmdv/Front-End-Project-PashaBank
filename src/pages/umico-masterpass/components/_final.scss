@@ -1,0 +1,49 @@
+.umicoMasterPass {
+  & .final {
+    margin-top: 70px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(240, 245, 255);
+    background-image: url("https://sme.pashabank.az/themes/sme/assets/images/umico/umico-secondary-carusel.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 800px 0px;
+    padding-bottom: 150px;
+    height: 460px;
+    & .container {
+      width: 80%;
+      padding: 0px 20px;
+      display: flex;
+      justify-content: space-between;
+
+      & .main {
+        margin-top: 50px;
+        & .heading {
+          & a {
+            text-decoration: none;
+            & button {
+              font-size: 15px;
+              padding: 12px 45px;
+              border: none;
+              cursor: pointer;
+              transition: 0.5s;
+              border-radius: 5px;
+              margin-top: 40px;
+              background: $mainButtonColor;
+              color: white;
+              &:hover {
+                opacity: 0.8;
+              }
+            }
+          }
+          & h1 {
+            margin: 20px 0px;
+            font-size: 50px;
+          }
+        }
+      }
+    }
+  }
+}

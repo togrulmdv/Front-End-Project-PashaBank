@@ -1,0 +1,56 @@
+.elektronTicarət {
+  width: 100%;
+  margin-top: 70px;
+  & .opening {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background: rgb(224, 243, 237);
+    background-image: url("https://sme.pashabank.az/themes/sme/assets/images/e-commerce/e-com-man.png");
+    background-repeat: no-repeat;
+    background-size: 470px;
+    background-position: 800px -35px;
+    z-index: 1;
+
+    & .container {
+      margin-top: 90px;
+      padding: 0px 20px;
+      width: 80%;
+
+      & .main {
+        & .head {
+          & h1 {
+            font-size: 55px;
+          }
+        }
+        & .par {
+          margin-top: 20px;
+          & p {
+            color: $secondPcolor;
+            font-size: 23px;
+          }
+        }
+        & .btn {
+          margin-top: 30px;
+          & a {
+            text-decoration: none;
+            & button {
+              padding: 15px 90px;
+              border: none;
+              background: $mainButtonColor;
+              border-radius: 5px;
+              color: white;
+              transition: 0.5s;
+              cursor: pointer;
+              font-size: 16px;
+              &:hover {
+                opacity: 0.9;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

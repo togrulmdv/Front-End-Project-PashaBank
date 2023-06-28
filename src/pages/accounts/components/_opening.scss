@@ -1,0 +1,45 @@
+.biznesUcunHesab {
+  width: 100%;
+  & .opening {
+    width: 100%;
+    margin-top: 70px;
+    background-color: rgb(255, 235, 240);
+    background-image: url("https://s3-eu-west-1.amazonaws.com/official-website-dev.pashabank.digital/media/main-page-carousel/Acc.png");
+    background-repeat: no-repeat;
+
+    background-size: contain;
+    background-position: 750px;
+    display: flex;
+    justify-content: center;
+    & .container {
+      margin-top: 70px;
+      padding: 0px 20px;
+      height: 350px;
+
+      background: transparent;
+      width: 80%;
+      & .main {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        & h1 {
+          margin-bottom: 40px;
+          font-size: 45px;
+        }
+        & p {
+          font-size: 15px;
+        }
+        & a {
+          & button {
+            margin-top: 40px;
+            padding: 15px 30px;
+            background: $mainButtonColor;
+            border: none;
+            color: white;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+.tarifler {
+  height: 1800px;
+  margin-bottom: 100px;
+  & .info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    & .container {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      margin-top: 110px;
+      gap: 70px;
+
+      & th,
+      td {
+        text-align: start;
+        padding: 20px;
+        & p {
+          color: black;
+        }
+      }
+      & .row1 {
+        & h1 {
+          color: $mainButtonColor;
+        }
+        & p {
+          font-size: 18px;
+        }
+      }
+      & .row3 {
+        & h1 {
+          color: $mainButtonColor;
+          font-size: 20px;
+        }
+      }
+      & .row4 {
+        h1 {
+          font-size: 15px;
+          & b {
+            color: $mainButtonColor;
+          }
+        }
+      }
+      & .row5 {
+        & h1 {
+          font-size: 16px;
+          & b {
+            color: $mainButtonColor;
+          }
+        }
+      }
+      & .row6 {
+        & h1 {
+          font-size: 16px;
+          & b {
+            color: $mainButtonColor;
+          }
+        }
+      }
+      & .row7 {
+        & h1 {
+          font-size: 16px;
+        }
+      }
+      & .row8 {
+        & h1 {
+          font-size: 16px;
+          & b {
+            color: $mainButtonColor;
+          }
+        }
+      }
+      & .row9 {
+        & h1 {
+          font-size: 16px;
+          & b {
+            color: $mainButtonColor;
+          }
+        }
+      }
+      & .row10 {
+        & h1 {
+          font-size: 16px;
+        }
+        & b {
+          color: $mainButtonColor;
+        }
+      }
+      & .row11 {
+        & h1 {
+          font-size: 14px;
+        }
+      }
+      & .row12 {
+        & h1 {
+          font-size: 14px;
+        }
+      }
+      & .buttons {
+        & a {
+          & button {
+            cursor: pointer;
+
+            background: #e0f3ed;
+            padding: 10px 20px;
+            border-radius: 4px;
+            text-align: center;
+            border: none;
+            color: $mainButtonColor;
+            font-size: 14px;
+            &:hover {
+              background: #058d66;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

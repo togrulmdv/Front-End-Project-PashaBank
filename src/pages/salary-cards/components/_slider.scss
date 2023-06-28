@@ -1,0 +1,167 @@
+.emekHaqqiLayihesi {
+  width: 100%;
+  & .slider {
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+    & .prev,
+    .next {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 50%;
+      position: absolute;
+      background: rgba(0, 125, 87, 0.08);
+      border-radius: 50%;
+      cursor: pointer;
+      transition: 0.5s;
+      z-index: 4;
+      & i {
+        color: $mainButtonColor;
+      }
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+    & .prev {
+      left: 40px;
+    }
+    & .next {
+      right: 40px;
+    }
+    & .container {
+      display: flex;
+      width: 100%;
+      overflow: hidden;
+      & .slide {
+        min-width: 100%;
+        transition: 0.5s;
+
+        height: 500px;
+        width: 100%;
+
+        &:first-child {
+          background: linear-gradient(
+            271.2deg,
+            rgba(241, 249, 247, 0.56) -5.13%,
+            rgba(224, 243, 241, 0.56) 30.4%,
+            rgba(253, 246, 231, 0.56) 51.19%,
+            rgba(255, 235, 240, 0.56) 79.79%
+          );
+          background-image: url("https://sme.pashabank.az/themes/sme/assets/images/salary-cards/Group393.svg");
+          background-position: 900px;
+          background-repeat: no-repeat;
+        }
+        &:nth-child(2) {
+          background: linear-gradient(
+            70.71deg,
+            rgba(241, 249, 247, 0.56) 0%,
+            rgba(224, 243, 241, 0.56) 41.84%,
+            rgba(253, 246, 231, 0.56) 66.32%,
+            rgba(255, 235, 240, 0.56) 100%
+          );
+          background-image: url("https://sme.pashabank.az/themes/sme/assets/images/slider/salary-cards-tariffs.png");
+          background-position: 950px;
+          background-size: 450px;
+          background-repeat: no-repeat;
+        }
+
+        &:last-child {
+          background: linear-gradient(
+            70.71deg,
+            rgba(241, 249, 247, 0.56) 0%,
+            rgba(224, 243, 241, 0.56) 41.84%,
+            rgba(253, 246, 231, 0.56) 66.32%,
+            rgba(255, 235, 240, 0.56) 100%
+          );
+          background-image: url("https://sme.pashabank.az/themes/sme/assets/images/slider/salary-cards.png");
+          background-position: 100%;
+          background-size: 650px;
+          background-repeat: no-repeat;
+        }
+        & .all {
+          width: 80%;
+          padding: 0px 20px;
+          margin: 0px auto;
+
+          margin-top: 100px;
+          display: flex;
+          & .left {
+            & .head {
+              & h1 {
+                font-size: 50px;
+                letter-spacing: 0.5px;
+              }
+            }
+            & .par {
+              & p {
+                margin-top: 30px;
+                color: $secondPcolor;
+                font-size: 19px;
+              }
+            }
+            & .btn {
+              margin-top: 40px;
+              & a {
+                text-decoration: none;
+                &:last-child {
+                  & button {
+                    color: $mainButtonColor;
+                    border: 1px solid #c5c7c6;
+                    padding: 14px 25px;
+                  }
+                }
+                &:first-child {
+                  margin-right: 20px;
+                  & button {
+                    background: $mainButtonColor;
+                    border: none;
+                    padding: 14px 30px;
+
+                    color: white;
+                  }
+                }
+                & button {
+                  border-radius: 5px;
+                  font-size: 15px;
+                  cursor: pointer;
+                  transition: 0.5s;
+                  &:hover {
+                    opacity: 0.9;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.dot {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 2px;
+  background: transparent;
+  border-radius: 50%;
+  border: 2px solid $mainButtonColor;
+  display: inline-block;
+  transition: opacity 0.6s ease;
+  opacity: 0.5;
+}
+.dots {
+  position: absolute;
+  bottom: 20px;
+  // right: 50%;
+  z-index: 5;
+}
+.dot:hover {
+  opacity: 0.8;
+}
+.current {
+  opacity: 1 !important;
+}

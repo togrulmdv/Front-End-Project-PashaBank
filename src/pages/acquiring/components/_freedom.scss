@@ -1,0 +1,26 @@
+.freedom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  height: 400px;
+  background-color: #f4f5f4;
+  & .container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    & .main {
+      margin-top: 100px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      & .heading {
+        margin-right: 100px;
+        width: 500px;
+        & h1 {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}

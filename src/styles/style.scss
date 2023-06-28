@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "./utils/variables";
+@import "../pages/Home/home";
+@import "../pages/accounts/accounts";
+@import "../pages/acquiring/acquiring";
+@import "../pages/business-cards/business-cards";
+@import "../pages/business-loans/business-loans";
+@import "../pages/ecommerce/ecommerce";
+@import "../pages/guarantees/guarantees";
+@import "../pages/mobile-app/mobile-app";
+@import "../pages/online-business-credits/online-business-credits";
+@import "../pages/pay-by-link/pay-by-link";
+@import "../pages/payments/payments";
+@import "../pages/salary-cards/salary-cards";
+@import "../pages/sif-loans/sif-loans";
+@import "../pages/tariff/tarrif";
+@import "../pages/umico-masterpass/umico-masterpass";
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.87) !important;
+    font-family: 'Gothic A1', sans-serif !important;
+    font-weight: 400;
+    // -webkit-text-size-adjust: 100%;
+    // box-sizing: inherit;
+    // margin: 0;
+    // padding: 0;
+    // border: 0;
+    // font: inherit;
+    // vertical-align: baseline;
+    // line-height: 1;
+    // font-family: 'Gothic A1', sans-serif;
+    // font-weight: 400;
+    // color: rgba(0,0,0,.87);
+    // background-color: #fafafa;
+}
+
+.biznesUcunHesab {
+    .bundle {
+        & .container {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+
+            & .heading {
+                max-width: 700px;
+            }
+        }
+    }
+}
+
+.container {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 0.4s;
+}
+
+.show {
+    opacity: 1 !important;
+    transform: translateY(0px) !important;
+}
+
+.loading {
+    transition: 0.5s;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    h1{
+        font-weight: 300;
+        color: rgb(170, 170, 170);
+    }
+
+    & .container {
+        width: 100%;
+        height: 100%;
+        margin-bottom: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        & svg {
+            width: 100px;
+            height: 100px;
+            animation-name: loading;
+            animation-duration: 2s;
+        }
+    }
+}
+
+@keyframes backgroundHide {
+    0% {
+        opacity: 1;
+    }
+
+    13% {
+        opacity: 0.9;
+    }
+
+    25% {
+        opacity: 0.8;
+    }
+
+    37% {
+        opacity: 0.7;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+
+    63% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.4;
+    }
+
+    87% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 0.2;
+    }
+}
+
+@keyframes loading {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.loaded {
+    opacity: 0 !important;
+}
+
+.second {
+    display: none !important;
+}

@@ -1,0 +1,71 @@
+.POS–terminalE–kassa {
+  & .steps {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    & .container {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      padding: 0px 20px;
+      & .heading {
+        width: 100%;
+        margin-bottom: 40px;
+        & h1 {
+          font-size: 35px;
+        }
+      }
+      & .main {
+        width: 100%;
+        & ul {
+          display: flex;
+          list-style-type: none;
+          gap: 20px;
+          & li {
+            width: calc((100% - 40px) / 3);
+            display: flex;
+            align-items: center;
+
+            & .left {
+              width: 60px;
+              height: 60px;
+              border-radius: 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+              margin-right: 25px;
+            }
+            &:first-child {
+              & .left {
+                background: #e0f3ed;
+                color: $mainButtonColor;
+              }
+            }
+            &:nth-child(2) {
+              & .left {
+                background: #ffebf0;
+                color: red;
+              }
+            }
+            &:last-child {
+              & .left {
+                background: $mainButtonColor;
+
+                color: #e0f3ed;
+              }
+            }
+            & .right {
+              & p {
+                color: $secondPcolor;
+                line-height: 25px;
+                font-size: 17px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

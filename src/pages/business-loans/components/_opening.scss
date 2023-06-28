@@ -1,0 +1,59 @@
+.biznesKreditləri {
+  margin-top: 100px;
+  width: 100%;
+  & .opening {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://sme.pashabank.az/themes/sme/assets/images/business-loans/PngItem_2984183.png");
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position: 800px 120px;
+    padding-bottom: 150px;
+    & .container {
+      width: 80%;
+      padding: 0px 20px;
+      display: flex;
+      justify-content: center;
+
+      & .main {
+        margin-top: 80px;
+        width: 100%;
+        & .heading {
+          & h1 {
+            margin: 20px 0px;
+            font-size: 50px;
+          }
+          & p {
+            color: $secondPcolor;
+            display: flex;
+            align-items: center;
+            font-size: 19px;
+            & i {
+              margin: 0px 20px;
+              font-size: 10px;
+            }
+          }
+        }
+        & .btn {
+          margin-top: 35px;
+          & a {
+            text-decoration: none;
+            & button {
+              padding: 18px 30px;
+              border: none;
+              border-radius: 5px;
+              color: white;
+              background: $mainButtonColor;
+              cursor: pointer;
+              transition: 0.5s;
+              &:hover {
+                opacity: 0.9;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

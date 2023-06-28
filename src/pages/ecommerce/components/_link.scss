@@ -1,0 +1,54 @@
+.link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/e-commerce/pay-by-link-background.jpg");
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  & .container {
+    width: 80%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://sme.pashabank.az/themes/sme/assets/images/e-commerce/paybylink.png");
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: 100% 110px;
+    & .main {
+      width: 100%;
+      padding: 90px 0px;
+      & .head {
+        & h1 {
+          font-size: 35px;
+        }
+      }
+      & .par {
+        margin-top: 50px;
+        & p {
+          color: $secondPcolor;
+          font-size: 23px;
+        }
+      }
+      & .btn {
+        margin-top: 50px;
+        & a {
+          text-decoration: none;
+          & button {
+            padding: 15px 70px;
+            border: none;
+            border-radius: 5px;
+            background: $mainButtonColor;
+            color: white;
+            font-size: 15px;
+            transition: 0.5s;
+            cursor: pointer;
+            &:hover {
+              opacity: 0.9;
+            }
+          }
+        }
+      }
+    }
+  }
+}

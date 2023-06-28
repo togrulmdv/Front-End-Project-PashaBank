@@ -1,0 +1,30 @@
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  & .container {
+    width: 80%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+
+    & .main {
+      transform: translateX(-30%);
+      margin: 0px;
+      & .head {
+        margin-bottom: 20px;
+        width: 550px;
+        & h1 {
+          font-size: 35px;
+        }
+      }
+      & .par {
+        width: 750px;
+        & p {
+          color: $mainPcolor;
+        }
+      }
+    }
+  }
+}

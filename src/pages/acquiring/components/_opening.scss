@@ -1,0 +1,58 @@
+.POS–terminalE–kassa {
+  margin-top: 70px;
+  width: 100%;
+  & .opening {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    background-color: rgb(223, 242, 236);
+
+    & .container {
+      background-image: url("https://sme.pashabank.az/themes/sme/assets/images/slider/acquiring.png");
+      background-size: 700px;
+      background-repeat: no-repeat;
+      background-position: 600px -240px;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      padding: 0px 20px;
+      max-width: 1400px;
+      & .main {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        & .heading {
+          margin-bottom: 30px;
+          h1 {
+            font-size: 45px;
+            width: 550px;
+          }
+        }
+        & .par {
+          margin-bottom: 40px;
+          // p {
+          // }
+        }
+        & .btn {
+          & a {
+            & button {
+              font-size: 14px;
+              padding: 13px 33px;
+              border: none;
+              border-radius: 5px;
+              background: $mainButtonColor;
+              color: white;
+              cursor: pointer;
+              transition: 0.5s;
+              &:hover {
+                opacity: 0.8;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,142 @@
+.bundle {
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+  letter-spacing: 0.5px;
+  display: flex;
+  justify-content: center;
+  & .container {
+    margin-top: 100px;
+    width: 90%;
+    padding: 0px 20px;
+    & .heading {
+      margin-bottom: 50px;
+      & h1 {
+        margin-bottom: 20px;
+        font-weight: 400;
+      }
+    }
+    & .list {
+      padding: 30px;
+
+      & ul {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        gap: 70px;
+
+        & li {
+          .price{
+            h2{
+              font-weight: 400;
+            }
+          }
+          & h1 {
+            margin-bottom: 25px;
+            font-weight: 400;
+          }
+          & h3 {
+            margin: 15px 0px;
+            font-weight: 400;
+          }
+          & .list2 {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            & p {
+              color: rgba(0, 0, 0, 0.6);
+              & i,
+              b {
+                color: #099a71;
+              }
+              & i {
+                margin-right: 10px;
+              }
+            }
+          }
+          & .buttons {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-top: 50px;
+            & button {
+              color: #099a71;
+              border-radius: 7px;
+              border: none;
+              cursor: pointer;
+              transition: 0.8s;
+
+              width: 100%;
+              padding: 10px 45px;
+              &:first-child {
+                background: transparent;
+                margin-bottom: 5px;
+
+                &:hover {
+                  background: #f1f9f7
+                    radial-gradient(circle, transparent 1%, #f1f9f7 0) 50%/18000%;
+                }
+              }
+              &:last-child {
+                background: #058d66;
+                color: white;
+                &:hover {
+                  background: #2caa84
+                    radial-gradient(circle, transparent 1%, #2caa84 0) 50%/18000%;
+                }
+              }
+            }
+          }
+
+          & .price {
+            display: flex;
+            align-items: end;
+            position: relative;
+
+            & h2 {
+              font-size: 70px;
+            }
+            & p {
+              position: absolute;
+              left: 60px;
+              bottom: 10px;
+            }
+            & img {
+              position: absolute;
+              left: 35px;
+              bottom: 15px;
+            }
+          }
+          &:nth-child(2) {
+            .price {
+              & p {
+                position: absolute;
+                left: 95px;
+                bottom: 10px;
+              }
+              & img {
+                position: absolute;
+                left: 70px;
+                bottom: 15px;
+              }
+            }
+          }
+          &:last-child {
+            .price {
+              & p {
+                position: absolute;
+                left: 130px;
+                bottom: 10px;
+              }
+              & img {
+                position: absolute;
+                left: 105px;
+                bottom: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

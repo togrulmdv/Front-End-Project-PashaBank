@@ -1,0 +1,330 @@
+// .mainPage {
+//   width: 100%;
+//   & .slider {
+//     margin-top: 20px;
+//     width: 100%;
+//     position: relative;
+//     & .prev,
+//     .next {
+//       width: 40px;
+//       height: 40px;
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       top: 50%;
+//       position: absolute;
+//       background: rgba(0, 125, 87, 0.08);
+//       border-radius: 50%;
+//       cursor: pointer;
+//       transition: 0.5s;
+//       z-index: 4;
+//       & i {
+//         color: $mainButtonColor;
+//       }
+//       &:hover {
+//         opacity: 0.9;
+//       }
+//     }
+//     & .prev {
+//       left: 40px;
+//     }
+//     & .next {
+//       right: 40px;
+//     }
+//     & .container {
+//       display: flex;
+//       width: 100%;
+//       overflow: hidden;
+//       & .slide {
+//         min-width: 100%;
+//         transition: 0.5s;
+
+//         height: 500px;
+//         width: 100%;
+
+//         &:first-child {
+//           background-color: rgb(224, 243, 237);
+//           background-image: url("https://s3-eu-west-1.amazonaws.com/official-website-dev.pashabank.digital/media/sme%20slider%2012%20olan.png");
+//           background-position: 100%;
+//           background-repeat: no-repeat;
+//         }
+//         &:nth-child(2) {
+//           background-color: rgb(255, 235, 240);
+//           background-image: url("https://s3-eu-west-1.amazonaws.com/official-website-dev.pashabank.digital/media/main-page-carousel/Acc.png");
+//           background-position: 100%;
+//           background-size: 850px;
+//           background-repeat: no-repeat;
+//         }
+//         &:nth-child(3) {
+//           background-color: rgb(253, 246, 231);
+//           background-image: url("https://s3-eu-west-1.amazonaws.com/official-website-dev.pashabank.digital/media/main-page-carousel/Group%20405.png");
+//           background-position: 100%;
+//           background-size: 850px;
+//           background-repeat: no-repeat;
+//         }
+//         &:last-child {
+//           background-color: rgb(231, 244, 249);
+//           background-image: url("https://s3-eu-west-1.amazonaws.com/official-website-dev.pashabank.digital/media/IMG1.png");
+//           background-position: 100%;
+//           background-size: 650px;
+//           background-repeat: no-repeat;
+//         }
+//         & .all {
+//           width: 80%;
+//           padding: 0px 20px;
+//           margin: 0px auto;
+
+//           margin-top: 100px;
+//           display: flex;
+//           & .left {
+//             & .head {
+//               & h1 {
+//                 font-size: 50px;
+//                 letter-spacing: 0.5px;
+//               }
+//             }
+//             & .par {
+//               & p {
+//                 margin-top: 30px;
+//                 color: $secondPcolor;
+//                 font-size: 19px;
+//               }
+//             }
+//             & .btn {
+//               margin-top: 40px;
+//               & a {
+//                 text-decoration: none;
+//                 & button {
+//                   padding: 20px 38px;
+//                   border: none;
+//                   color: white;
+//                   border-radius: 5px;
+//                   background: $mainButtonColor;
+//                   font-size: 15px;
+//                   cursor: pointer;
+//                   transition: 0.5s;
+//                   &:hover {
+//                     opacity: 0.9;
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// .dot {
+//   cursor: pointer;
+//   height: 16px;
+//   width: 16px;
+//   margin: 0 2px;
+//   background: transparent;
+//   border-radius: 50%;
+//   border: 2px solid $mainButtonColor;
+//   display: inline-block;
+//   transition: opacity 0.6s ease;
+//   opacity: 0.5;
+// }
+// .dots {
+//   position: absolute;
+//   width: 100%;
+//   left: 50%;
+//   right: 50%;
+//   transform: translate(-50%, 0);
+//   bottom: 40px;
+//   z-index: 5;
+//   vertical-align: baseline;
+//   // -webkit-text-size-adjust: 100%;
+//   // color: rgba(0,0,0,.87);
+//   // user-select: none;
+//   // -webkit-tap-highlight-color: transparent;
+//   // box-sizing: inherit;
+//   // border: 0;
+//   // font: inherit;
+//   // vertical-align: baseline;
+//   // position: absolute;
+//   // list-style: none;
+//   // display: block;
+//   // text-align: center;
+//   // padding: 0;
+//   // margin: 0;
+//   // width: 100%;
+//   // bottom: 40px;
+// }
+// .dot:hover {
+//   opacity: 0.8;
+// }
+// .current {
+//   opacity: 1 !important;
+// }
+
+.mainPage {
+  width: 100%;
+
+  .slider {
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+
+    .prev,
+    .next {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 50%;
+      position: absolute;
+      background: rgba(0, 125, 87, 0.08);
+      border-radius: 50%;
+      cursor: pointer;
+      transition: 0.5s;
+      z-index: 4;
+
+      i {
+        color: $mainButtonColor;
+      }
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+
+    .prev {
+      left: 40px;
+    }
+
+    .next {
+      right: 40px;
+    }
+
+    .container {
+      display: flex;
+      width: 100%;
+      overflow: hidden;
+
+      .slide {
+        min-width: 100%;
+        transition: 0.5s;
+        height: 500px;
+        width: 100%;
+
+        &:first-child {
+          background-color: rgb(224, 243, 237);
+          background-image: url("https://s3-eu-west-1.amazonaws.com/official-website-dev.pashabank.digital/media/sme%20slider%2012%20olan.png");
+          background-position: 100%;
+          background-repeat: no-repeat;
+        }
+
+        &:nth-child(2) {
+          background-color: rgb(255, 235, 240);
+          background-image: url("https://s3-eu-west-1.amazonaws.com/official-website-dev.pashabank.digital/media/main-page-carousel/Acc.png");
+          background-position: 100%;
+          background-size: 850px;
+          background-repeat: no-repeat;
+        }
+
+        &:nth-child(3) {
+          background-color: rgb(253, 246, 231);
+          background-image: url("https://s3-eu-west-1.amazonaws.com/official-website-dev.pashabank.digital/media/main-page-carousel/Group%20405.png");
+          background-position: 100%;
+          background-size: 850px;
+          background-repeat: no-repeat;
+        }
+
+        &:last-child {
+          background-color: rgb(231, 244, 249);
+          background-image: url("https://s3-eu-west-1.amazonaws.com/official-website-dev.pashabank.digital/media/IMG1.png");
+          background-position: 100%;
+          background-size: 650px;
+          background-repeat: no-repeat;
+        }
+
+        .all {
+          width: 80%;
+          padding: 0px 20px;
+          margin: 0px auto;
+          margin-top: 100px;
+          display: flex;
+
+          .left {
+            .head {
+              h1 {
+                font-weight: 300;
+                font-size: 50px;
+                letter-spacing: 0.5px;
+              }
+            }
+
+            .par {
+              p {
+                margin-top: 30px;
+                color: $secondPcolor;
+                font-size: 19px;
+              }
+            }
+
+            .btn {
+              margin-top: 40px;
+
+              a {
+                text-decoration: none;
+
+                button {
+                  padding: 20px 38px;
+                  border: none;
+                  color: white;
+                  border-radius: 5px;
+                  background: $mainButtonColor;
+                  font-size: 15px;
+                  cursor: pointer;
+                  transition: 0.5s;
+
+                  &:hover {
+                    opacity: 0.9;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+.dots {
+  // position: absolute;
+  display: flex;
+  justify-content: center; 
+  bottom: 40px;
+  left: 0; 
+  right: 0; 
+  z-index: 5;
+}
+
+.dot {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 2px;
+  background: transparent;
+  border-radius: 50%;
+  border: 2px solid $mainButtonColor;
+  display: inline-block;
+  transition: opacity 0.6s ease;
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.current {
+  opacity: 1 !important;
+}

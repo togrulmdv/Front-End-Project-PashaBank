@@ -1,0 +1,99 @@
+.odenisler {
+  .advantages {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    & .container {
+      margin-top: 100px;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 1400px;
+
+      & .heading {
+        font-size: 23px;
+        transform: translate(-500px);
+      }
+      & .list {
+        margin-top: 30px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        p {
+          color: $mainPcolor;
+        }
+        & ul {
+          display: flex;
+          list-style: none;
+          gap: 10px;
+
+          &:first-child {
+            & li:first-child {
+              & .first {
+                & .icon {
+                  background: rgb(255, 235, 240);
+                }
+              }
+              & i {
+                color: red;
+              }
+            }
+            & li:nth-child(2) {
+              & .first {
+                & .icon {
+                  background: rgb(231, 244, 249);
+                }
+              }
+              & i {
+                color: blue;
+              }
+            }
+            & li:last-child {
+              & .first {
+                & .icon {
+                  background: rgb(224, 243, 237);
+                }
+              }
+              & i {
+                color: $mainButtonColor;
+              }
+            }
+          }
+
+          & li {
+            display: flex;
+            align-items: center;
+            width: 44%;
+            & .second {
+              margin-left: 20px;
+              & h1 {
+                margin-bottom: 10px;
+              }
+              & p {
+                font-size: 17px;
+              }
+            }
+
+            & .first {
+              height: 60px;
+              min-width: 60px;
+              & .icon {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+
+                & i {
+                  font-size: 25px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

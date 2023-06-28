@@ -1,0 +1,95 @@
+.qarantiyalar {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  & .container {
+    width: 80%;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    & .list6 {
+      margin-top: 50px;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      & .li6 {
+        display: none;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 20px;
+        & .heading {
+          & h1 {
+            font-size: 26px;
+          }
+        }
+        & .btn {
+          margin-top: 60px;
+          & a {
+            text-decoration: none;
+            & button {
+              padding: 15px 30px;
+              background: $mainButtonColor;
+              border: none;
+              border-radius: 5px;
+              color: white;
+              font-size: 16px;
+              cursor: pointer;
+              transition: 0.5s;
+              &:hover {
+                opacity: 0.8;
+              }
+            }
+          }
+        }
+        & .main {
+          width: 100%;
+          & ul {
+            display: flex;
+            flex-direction: column;
+            & li {
+              display: flex;
+              & i {
+                margin-right: 10px;
+                color: $mainButtonColor;
+              }
+              & p {
+                color: $secondPcolor;
+                letter-spacing: 0.25px;
+                font-size: 17px;
+                line-height: 25px;
+              }
+            }
+          }
+        }
+      }
+    }
+    & .heading {
+      margin-bottom: 30px;
+      & h1 {
+        font-size: 35px;
+      }
+    }
+    & .choice {
+      margin-bottom: 15px;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      & li {
+        cursor: pointer;
+        padding: 10px 15px;
+        border: 1px solid #e5e5e5;
+        border-radius: 20px;
+        color: rgba($color: black, $alpha: 0.6);
+      }
+    }
+  }
+}
+.active {
+  color: black !important;
+  border-color: $mainButtonColor !important;
+}
+.visible {
+  display: block !important;
+}

@@ -1,0 +1,52 @@
+.woocommerce {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  letter-spacing: 0.5px;
+  background: linear-gradient(
+    83.02deg,
+    rgba(245, 215, 255, 0.56),
+    rgba(240, 224, 243, 0.56) 41.84%,
+    rgba(238, 231, 253, 0.56) 66.32%,
+    rgba(235, 247, 255, 0.56)
+  );
+  padding-top: 30px;
+
+  & .container {
+    width: 80%;
+    padding: 30px 20px;
+    background-image: url("https://sme.pashabank.az/themes/sme/assets/images/e-commerce/Free-Bag-Mockup.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+
+    & .main {
+      display: flex;
+      flex-direction: column;
+      & .heading {
+        margin-bottom: 30px;
+      }
+      & .par {
+        & p {
+          font-size: 30px;
+        }
+      }
+      & .btn {
+        margin-top: 30px;
+        & a {
+          text-decoration: none;
+          & button {
+            padding: 15px 60px;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            background: #9c5c8f;
+            color: white;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

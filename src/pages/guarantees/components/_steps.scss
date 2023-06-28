@@ -1,0 +1,35 @@
+.bankQarantiyasi {
+  & .steps {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    & .container {
+      width: 80%;
+      padding: 0px 20px;
+      display: flex;
+      flex-direction: column;
+      & .heading {
+        margin-bottom: 50px;
+        & h1 {
+          font-size: 35px;
+        }
+      }
+      & .main {
+        width: 100%;
+        & ul {
+          list-style: none;
+          width: 100%;
+          display: flex;
+          gap: 20px;
+          & li {
+            width: calc((100% - 40px) / 4);
+            & .icon {
+              margin-bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

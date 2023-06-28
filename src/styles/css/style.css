@@ -1,0 +1,5414 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.bundle {
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+  letter-spacing: 0.5px;
+  display: flex;
+  justify-content: center;
+}
+.bundle .container {
+  margin-top: 100px;
+  width: 90%;
+  padding: 0px 20px;
+}
+.bundle .container .heading {
+  margin-bottom: 50px;
+}
+.bundle .container .heading h1 {
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.bundle .container .list {
+  padding: 30px;
+}
+.bundle .container .list ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  gap: 70px;
+}
+.bundle .container .list ul li .price h2 {
+  font-weight: 400;
+}
+.bundle .container .list ul li h1 {
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+.bundle .container .list ul li h3 {
+  margin: 15px 0px;
+  font-weight: 400;
+}
+.bundle .container .list ul li .list2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bundle .container .list ul li .list2 p {
+  color: rgba(0, 0, 0, 0.6);
+}
+.bundle .container .list ul li .list2 p i,
+.bundle .container .list ul li .list2 p b {
+  color: #099a71;
+}
+.bundle .container .list ul li .list2 p i {
+  margin-right: 10px;
+}
+.bundle .container .list ul li .buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 50px;
+}
+.bundle .container .list ul li .buttons button {
+  color: #099a71;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  transition: 0.8s;
+  width: 100%;
+  padding: 10px 45px;
+}
+.bundle .container .list ul li .buttons button:first-child {
+  background: transparent;
+  margin-bottom: 5px;
+}
+.bundle .container .list ul li .buttons button:first-child:hover {
+  background: #f1f9f7 radial-gradient(circle, transparent 1%, #f1f9f7 0) 50%/18000%;
+}
+.bundle .container .list ul li .buttons button:last-child {
+  background: #058d66;
+  color: white;
+}
+.bundle .container .list ul li .buttons button:last-child:hover {
+  background: #2caa84 radial-gradient(circle, transparent 1%, #2caa84 0) 50%/18000%;
+}
+.bundle .container .list ul li .price {
+  display: flex;
+  align-items: end;
+  position: relative;
+}
+.bundle .container .list ul li .price h2 {
+  font-size: 70px;
+}
+.bundle .container .list ul li .price p {
+  position: absolute;
+  left: 60px;
+  bottom: 10px;
+}
+.bundle .container .list ul li .price img {
+  position: absolute;
+  left: 35px;
+  bottom: 15px;
+}
+.bundle .container .list ul li:nth-child(2) .price p {
+  position: absolute;
+  left: 95px;
+  bottom: 10px;
+}
+.bundle .container .list ul li:nth-child(2) .price img {
+  position: absolute;
+  left: 70px;
+  bottom: 15px;
+}
+.bundle .container .list ul li:last-child .price p {
+  position: absolute;
+  left: 130px;
+  bottom: 10px;
+}
+.bundle .container .list ul li:last-child .price img {
+  position: absolute;
+  left: 105px;
+  bottom: 15px;
+}
+
+.currency {
+  display: flex;
+  justify-content: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+  letter-spacing: 1px;
+  height: 400px;
+}
+.currency .container {
+  width: 90%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.currency .container .heading {
+  margin-bottom: 40px;
+}
+.currency .container .heading h1 {
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-weight: 400;
+}
+.currency .container .heading p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 15px;
+}
+.currency .container .btn {
+  margin-top: 40px;
+}
+.currency .container .btn a {
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.currency .container .btn a button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: #058d66;
+  display: flex;
+  align-items: center;
+}
+.currency .container .btn a button i {
+  margin-left: 8px;
+}
+.currency .container .main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.currency .container .main .col {
+  width: 100%;
+}
+.currency .container .main .col table {
+  padding: 20px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 6px;
+}
+.currency .container .main .col table th {
+  text-align: start;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+.currency .container .main .col table td {
+  padding: 10px 20px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+}
+.currency .container .main .col table .country {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.currency .container .main .col table .country h1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.currency .container .main .col table .country img {
+  width: 40px;
+}
+
+footer {
+  width: 100%;
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 90px;
+}
+footer .extra {
+  padding: 20px 0px;
+  margin-top: 30px;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .extra h1 {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.38);
+}
+footer .container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+footer .container .row2 {
+  margin-top: 50px;
+}
+footer .container .row2 ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+footer .container .row2 ul li {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .container .row2 ul li .socialMedia a {
+  margin-right: 15px;
+  font-size: 20px;
+}
+footer .container .row2 ul li h1 {
+  font-size: 15px;
+}
+footer .container .row2 ul li a {
+  transition: 0.5s;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.38);
+}
+footer .container .row2 ul li a:hover {
+  color: black;
+}
+footer .container .row1 ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .container .row1 ul li {
+  width: 250px;
+}
+footer .container .row1 ul li h1 {
+  font-size: 15px;
+}
+footer .container .row1 ul li:first-child img {
+  width: 120px;
+}
+
+.help {
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 750px;
+  width: 100%;
+}
+.help .container {
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 0px 20px;
+}
+.help .container .heading {
+  width: 50%;
+}
+.help .container .heading h1 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 32px;
+  font-weight: 400;
+}
+.help .container .methods {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.help .container .methods ul:first-child {
+  gap: 25px;
+}
+.help .container .methods ul:first-child .extra {
+  margin-top: 70px;
+}
+.help .container .methods ul:first-child li:first-child {
+  background: #e7f4f9;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/main-page/pos-terminal.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.help .container .methods ul:first-child li:last-child {
+  background: #ffebf0;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/main-page/business-cards.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.help .container .methods ul:last-child {
+  gap: 25px;
+}
+.help .container .methods ul:last-child li:first-child {
+  background: #fdf6e7;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/main-page/factoring.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.help .container .methods ul:last-child li:nth-child(2) {
+  background: #e0f3ed;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/main-page/e-commerce.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.help .container .methods ul:last-child li:last-child {
+  background: #f4f5f4;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/main-page/bank-guarantee.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.help .container .methods ul {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+}
+.help .container .methods ul a {
+  text-decoration: none;
+  width: 100%;
+}
+.help .container .methods ul a h1 {
+  color: black;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.help .container .methods ul a p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 17px;
+  margin-top: 15px;
+}
+.help .container .methods ul li {
+  border-radius: 10px;
+  width: 100%;
+  transition: 0.8s;
+}
+.help .container .methods ul li:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.help .container .methods ul li .left {
+  height: 100%;
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+.help .container .methods ul li .left .extra {
+  color: #099a71;
+  margin-top: 10px;
+}
+
+.mainPage .information {
+  letter-spacing: 0.5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/main-page/online-bank.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: 650px;
+}
+.mainPage .information .container {
+  width: 90%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: start;
+}
+.mainPage .information .container .main {
+  display: flex;
+  flex-direction: column;
+  width: 490px;
+}
+.mainPage .information .container .main .heading {
+  margin-bottom: 40px;
+}
+.mainPage .information .container .main .heading h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.mainPage .information .container .main .info {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mainPage .information .container .main .info div {
+  margin-bottom: 20px;
+}
+.mainPage .information .container .main .info h1 {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.mainPage .information .container .main .info p {
+  font-size: 16px;
+}
+
+.mobile {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  margin-top: 100px;
+  padding-left: 24px;
+  padding-right: 24px;
+  letter-spacing: 1px;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/mobile-image.svg");
+  background-repeat: no-repeat;
+  background-position: 100% -20px;
+}
+.mobile .container {
+  width: 90%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: start;
+}
+.mobile .container .main {
+  width: 530px;
+}
+.mobile .container .main h1 {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.mobile .container .main p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.mobile .container .main .ref {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.mobile .container .main .ref .col1 {
+  display: flex;
+  flex-direction: column;
+}
+.mobile .container .main .ref .col1 img {
+  width: 150px;
+}
+
+nav {
+  position: fixed;
+  background: white;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 0.5px solid rgb(228, 228, 228);
+}
+nav a {
+  text-decoration: none;
+}
+nav .container {
+  display: flex !important;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+nav .container .right {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+nav .container .right .extra {
+  left: -165px;
+  top: 60px;
+  position: absolute;
+}
+nav .container .right .extra ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  background: white;
+  border-radius: 5px;
+}
+nav .container .right .extra ul li {
+  padding: 15px;
+  width: 300px;
+}
+nav .container .right .extra ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+nav .container .right .btn {
+  height: 40px;
+  padding: 8px 16px;
+  background: #058d66;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-size: 13px;
+  transition: 1s;
+}
+nav .container .right .btn i {
+  margin-left: 5px;
+}
+nav .container .right .btn:hover {
+  background: #2caa84 radial-gradient(circle, transparent 1%, #2caa84 0) 50%/18000%;
+}
+nav .container .left {
+  display: flex;
+  align-items: center;
+}
+nav .container .left .pages {
+  margin-left: 40px;
+}
+nav .container .left .pages .main {
+  display: flex;
+  list-style: none;
+}
+nav .container .left .pages .main .list {
+  transition: background 0.5s ease;
+  cursor: pointer;
+  padding: 25px 0px;
+}
+nav .container .left .pages .main .list .extra {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 69px;
+  background: white;
+}
+nav .container .left .pages .main .list .extra .cont {
+  margin-left: 170px;
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+}
+nav .container .left .pages .main .list .extra .cont .col {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+}
+nav .container .left .pages .main .list .extra .cont .col a {
+  background: white !important;
+  padding: 20px 25px;
+}
+nav .container .left .pages .main .list .extra .cont .col a:hover button {
+  color: black;
+}
+nav .container .left .pages .main .list .extra .cont .col a::after {
+  width: 0%;
+}
+nav .container .left .pages .main .list .extra .cont .col a button {
+  transition: 0.5s;
+  font-size: 19px;
+  color: rgba(0, 0, 0, 0.38);
+  background: transparent;
+  border: none;
+}
+nav .container .left .pages .main .list a {
+  padding: 25px 20px;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.38);
+  transition: 0.5s;
+  text-decoration: none;
+  font-size: 17px;
+  position: relative;
+}
+nav .container .left .pages .main .list a::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+nav .container .left .pages .main .list:hover {
+  background: rgb(224, 243, 237);
+}
+nav .container .left .pages .main .list:hover a {
+  color: black;
+}
+nav .container .left .pages .main .list:hover a::after {
+  background: green;
+}
+
+.hidden {
+  display: none;
+}
+
+.news {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  letter-spacing: 1px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.news .container {
+  margin-top: 100px;
+  width: 90%;
+  padding: 0px 20px;
+}
+.news .container .heading {
+  margin-bottom: 30px;
+}
+.news .container .heading h1 {
+  font-size: 30px;
+}
+.news .container .main {
+  display: flex;
+  flex-direction: column;
+}
+.news .container .main ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.news .container .main ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  transition: 0.5s;
+  font-size: 15px;
+}
+.news .container .main ul li a:hover {
+  color: #099a71;
+}
+.news .container .main ul li h1 {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 10px;
+}
+.news .container .main .btn {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  text-decoration: none;
+}
+.news .container .main .btn span {
+  display: flex;
+  align-items: center;
+  color: #099a71;
+  font-size: 16px;
+}
+.news .container .main .btn span i {
+  margin-left: 5px;
+}
+
+.mainPage {
+  background: white;
+  margin-top: 50px;
+  max-width: 1700px;
+}
+.mainPage .solutions {
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+  margin: auto;
+}
+.mainPage .solutions .container {
+  margin: auto;
+  margin-top: 50px;
+  width: 90%;
+  padding: 0px 20px;
+}
+.mainPage .solutions .container .heading {
+  width: 50%;
+}
+.mainPage .solutions .container .heading h1 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 29px;
+  font-weight: 400;
+}
+.mainPage .solutions .container .variants {
+  margin-top: 40px;
+}
+.mainPage .solutions .container .variants ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.mainPage .solutions .container .variants ul li {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.5s;
+  padding: 20px;
+  width: 350px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mainPage .solutions .container .variants ul li .icon i {
+  color: #099a71;
+  font-size: 35px;
+}
+.mainPage .solutions .container .variants ul li .about {
+  font-size: 15px;
+  margin-top: 25px;
+}
+.mainPage .solutions .container .variants ul li .about h1 {
+  font-weight: 500;
+}
+.mainPage .solutions .container .variants ul li .info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.mainPage .solutions .container .variants ul li .info i {
+  color: #099a71;
+  margin-right: 10px;
+}
+.mainPage .solutions .container .variants ul li .extra {
+  margin-top: 30px;
+  color: #099a71;
+}
+.mainPage .solutions .container .variants ul li:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.mainPage {
+  width: 100%;
+}
+.mainPage .slider {
+  margin-top: 20px;
+  width: 100%;
+  position: relative;
+}
+.mainPage .slider .prev,
+.mainPage .slider .next {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  position: absolute;
+  background: rgba(0, 125, 87, 0.08);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+  z-index: 4;
+}
+.mainPage .slider .prev i,
+.mainPage .slider .next i {
+  color: #058d66;
+}
+.mainPage .slider .prev:hover,
+.mainPage .slider .next:hover {
+  opacity: 0.9;
+}
+.mainPage .slider .prev {
+  left: 40px;
+}
+.mainPage .slider .next {
+  right: 40px;
+}
+.mainPage .slider .container {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+.mainPage .slider .container .slide {
+  min-width: 100%;
+  transition: 0.5s;
+  height: 500px;
+  width: 100%;
+}
+.mainPage .slider .container .slide:first-child {
+  background-color: rgb(224, 243, 237);
+  background-image: url("https://s3-eu-west-1.amazonaws.com/official-website-dev.pashabank.digital/media/sme%20slider%2012%20olan.png");
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+.mainPage .slider .container .slide:nth-child(2) {
+  background-color: rgb(255, 235, 240);
+  background-image: url("https://s3-eu-west-1.amazonaws.com/official-website-dev.pashabank.digital/media/main-page-carousel/Acc.png");
+  background-position: 100%;
+  background-size: 850px;
+  background-repeat: no-repeat;
+}
+.mainPage .slider .container .slide:nth-child(3) {
+  background-color: rgb(253, 246, 231);
+  background-image: url("https://s3-eu-west-1.amazonaws.com/official-website-dev.pashabank.digital/media/main-page-carousel/Group%20405.png");
+  background-position: 100%;
+  background-size: 850px;
+  background-repeat: no-repeat;
+}
+.mainPage .slider .container .slide:last-child {
+  background-color: rgb(231, 244, 249);
+  background-image: url("https://s3-eu-west-1.amazonaws.com/official-website-dev.pashabank.digital/media/IMG1.png");
+  background-position: 100%;
+  background-size: 650px;
+  background-repeat: no-repeat;
+}
+.mainPage .slider .container .slide .all {
+  width: 80%;
+  padding: 0px 20px;
+  margin: 0px auto;
+  margin-top: 100px;
+  display: flex;
+}
+.mainPage .slider .container .slide .all .left .head h1 {
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 0.5px;
+}
+.mainPage .slider .container .slide .all .left .par p {
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 19px;
+}
+.mainPage .slider .container .slide .all .left .btn {
+  margin-top: 40px;
+}
+.mainPage .slider .container .slide .all .left .btn a {
+  text-decoration: none;
+}
+.mainPage .slider .container .slide .all .left .btn a button {
+  padding: 20px 38px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  background: #058d66;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.mainPage .slider .container .slide .all .left .btn a button:hover {
+  opacity: 0.9;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.dot {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 2px;
+  background: transparent;
+  border-radius: 50%;
+  border: 2px solid #058d66;
+  display: inline-block;
+  transition: opacity 0.6s ease;
+  opacity: 0.5;
+}
+.dot:hover {
+  opacity: 0.8;
+}
+
+.current {
+  opacity: 1 !important;
+}
+
+.biznesUcunHesab .advantages {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+}
+.biznesUcunHesab .advantages .container {
+  margin-top: 100px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.biznesUcunHesab .advantages .container .heading {
+  font-size: 23px;
+}
+.biznesUcunHesab .advantages .container .list {
+  margin-top: 50px;
+}
+.biznesUcunHesab .advantages .container .list ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+.biznesUcunHesab .advantages .container .list ul:last-child {
+  margin-top: 50px;
+}
+.biznesUcunHesab .advantages .container .list ul:last-child li:first-child .first .icon {
+  background: rgb(255, 235, 240);
+}
+.biznesUcunHesab .advantages .container .list ul:last-child li:first-child i {
+  color: red;
+}
+.biznesUcunHesab .advantages .container .list ul:last-child li:last-child .first .icon {
+  background: rgb(231, 244, 249);
+}
+.biznesUcunHesab .advantages .container .list ul:last-child li:last-child i {
+  color: blue;
+}
+.biznesUcunHesab .advantages .container .list ul:first-child li:first-child .first .icon {
+  background: rgb(224, 243, 237);
+}
+.biznesUcunHesab .advantages .container .list ul:first-child li:first-child i {
+  color: #058d66;
+}
+.biznesUcunHesab .advantages .container .list ul:first-child li:last-child .first .icon {
+  background: rgb(253, 246, 231);
+}
+.biznesUcunHesab .advantages .container .list ul:first-child li:last-child i {
+  color: orange;
+}
+.biznesUcunHesab .advantages .container .list ul li {
+  display: flex;
+  align-items: center;
+  width: 44%;
+}
+.biznesUcunHesab .advantages .container .list ul li .second {
+  margin-left: 20px;
+}
+.biznesUcunHesab .advantages .container .list ul li .second h1 {
+  margin-bottom: 10px;
+}
+.biznesUcunHesab .advantages .container .list ul li .second p {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.biznesUcunHesab .advantages .container .list ul li .first {
+  height: 60px;
+  min-width: 60px;
+}
+.biznesUcunHesab .advantages .container .list ul li .first .icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.biznesUcunHesab .advantages .container .list ul li .first .icon i {
+  font-size: 25px;
+}
+
+.biznesUcunHesab .FAQ {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.biznesUcunHesab .FAQ .container {
+  margin-top: 150px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.biznesUcunHesab .FAQ .container .heading {
+  margin-bottom: 50px;
+}
+.biznesUcunHesab .FAQ .container .heading h1 {
+  font-size: 30px;
+}
+.biznesUcunHesab .FAQ .container .accordion ul {
+  list-style: none;
+}
+.biznesUcunHesab .FAQ .container .accordion ul li {
+  margin: 10px 0px;
+  padding: 8px 16px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  height: 65px;
+  overflow: hidden;
+  transition: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.biznesUcunHesab .FAQ .container .accordion ul li .bottom {
+  margin-top: 20px;
+  line-height: 25px;
+}
+.biznesUcunHesab .FAQ .container .accordion ul li .bottom p {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 5px;
+}
+.biznesUcunHesab .FAQ .container .accordion ul li .bottom a {
+  color: #058d66;
+  text-decoration: none;
+}
+.biznesUcunHesab .FAQ .container .accordion ul li .bottom a::after {
+  background: white !important;
+}
+.biznesUcunHesab .FAQ .container .accordion ul li .top {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.biznesUcunHesab .FAQ .container .accordion ul li .top .left {
+  font-size: 18px;
+}
+.biznesUcunHesab .FAQ .container .accordion ul li .top .rightIcon h1 {
+  color: #058d66;
+  font-size: 40px;
+}
+.biznesUcunHesab .active .left {
+  color: #058d66 !important;
+}
+
+.biznesUcunHesab .newBusiness {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/accounts/kob-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+.biznesUcunHesab .newBusiness .container {
+  margin-top: 80px;
+  color: white;
+  width: 80%;
+}
+.biznesUcunHesab .newBusiness .container h1 {
+  margin-bottom: 40px;
+  font-size: 45px;
+}
+.biznesUcunHesab .newBusiness .container ul {
+  display: flex;
+  list-style: none;
+  gap: 200px;
+}
+.biznesUcunHesab .newBusiness .container ul li h1 {
+  font-size: 25px;
+  margin-top: 10px;
+}
+.biznesUcunHesab .newBusiness .container a button {
+  cursor: pointer;
+  padding: 18px 36px;
+  font-size: 15px;
+  background: #058d66;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.biznesUcunHesab .online {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.biznesUcunHesab .online .container {
+  margin-top: 70px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.biznesUcunHesab .online .container .heading {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+}
+.biznesUcunHesab .online .container .heading .row1 {
+  width: 500px;
+}
+.biznesUcunHesab .online .container .heading .row1 h1 {
+  font-size: 30px;
+}
+.biznesUcunHesab .online .container .heading .row2 {
+  width: 800px;
+}
+.biznesUcunHesab .online .container .heading .row2 p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.38);
+  font-weight: 500;
+}
+.biznesUcunHesab .online .container .steps {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.biznesUcunHesab .online .container .steps ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.biznesUcunHesab .online .container .steps ul li {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.5s;
+}
+.biznesUcunHesab .online .container .steps ul li:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.biznesUcunHesab .online .container .steps ul li a {
+  padding: 20px;
+  border-radius: 10px;
+  background: #fff;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+.biznesUcunHesab .online .container .steps ul li a .row {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+.biznesUcunHesab .online .container .steps ul li a .row .btn button {
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  color: #058d66;
+  font-size: 15px;
+}
+.biznesUcunHesab .online .container .steps ul li a .row .btn button i {
+  margin-left: 10px;
+}
+.biznesUcunHesab .online .container .steps ul li a .row .circle {
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.biznesUcunHesab .online .container .steps ul li a .row .circle i {
+  font-size: 25px;
+}
+.biznesUcunHesab .online .container .steps ul li:first-child .action {
+  width: 250px;
+}
+.biznesUcunHesab .online .container .steps ul li:first-child .circle {
+  background: rgb(224, 243, 237);
+}
+.biznesUcunHesab .online .container .steps ul li:first-child .circle i {
+  color: green;
+}
+.biznesUcunHesab .online .container .steps ul li:nth-child(2) .action {
+  width: 280px;
+}
+.biznesUcunHesab .online .container .steps ul li:nth-child(2) .circle {
+  background: rgb(255, 235, 240) !important;
+}
+.biznesUcunHesab .online .container .steps ul li:nth-child(2) .circle i {
+  color: red !important;
+}
+.biznesUcunHesab .online .container .steps ul li:last-child .action {
+  width: 280px;
+}
+.biznesUcunHesab .online .container .steps ul li:last-child .circle {
+  background: rgb(253, 246, 231);
+}
+.biznesUcunHesab .online .container .steps ul li:last-child .circle i {
+  color: orange;
+}
+
+.biznesUcunHesab {
+  width: 100%;
+}
+.biznesUcunHesab .opening {
+  width: 100%;
+  margin-top: 70px;
+  background-color: rgb(255, 235, 240);
+  background-image: url("https://s3-eu-west-1.amazonaws.com/official-website-dev.pashabank.digital/media/main-page-carousel/Acc.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 750px;
+  display: flex;
+  justify-content: center;
+}
+.biznesUcunHesab .opening .container {
+  margin-top: 70px;
+  padding: 0px 20px;
+  height: 350px;
+  background: transparent;
+  width: 80%;
+}
+.biznesUcunHesab .opening .container .main {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+.biznesUcunHesab .opening .container .main h1 {
+  margin-bottom: 40px;
+  font-size: 45px;
+}
+.biznesUcunHesab .opening .container .main p {
+  font-size: 15px;
+}
+.biznesUcunHesab .opening .container .main a button {
+  margin-top: 40px;
+  padding: 15px 30px;
+  background: #058d66;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.POS–terminalE–kassa .choice {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.POS–terminalE–kassa .choice .container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+.POS–terminalE–kassa .choice .container .heading {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.POS–terminalE–kassa .choice .container .heading h1 {
+  font-size: 30px;
+}
+.POS–terminalE–kassa .choice .container .main {
+  width: 100%;
+}
+.POS–terminalE–kassa .choice .container .main .list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+.POS–terminalE–kassa .choice .container .main .list .terminals {
+  padding: 0px 10px;
+  width: calc((100% - 40px) / 2);
+  display: flex;
+  flex-direction: column;
+}
+.POS–terminalE–kassa .choice .container .main .list .terminals .image {
+  background: #f4f5f4;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 55px 0px;
+}
+.POS–terminalE–kassa .choice .container .main .list .terminals .info {
+  margin-top: 20px;
+  width: 100%;
+  flex-direction: column;
+}
+.POS–terminalE–kassa .choice .container .main .list .terminals .info .head {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.POS–terminalE–kassa .choice .container .main .list .terminals .info .head h1 {
+  font-size: 22px;
+}
+.POS–terminalE–kassa .choice .container .main .list .terminals .info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.POS–terminalE–kassa .choice .container .main .list .terminals .info ul li {
+  display: flex;
+  align-items: center;
+}
+.POS–terminalE–kassa .choice .container .main .list .terminals .info ul li i {
+  color: #058d66;
+  margin-right: 10px;
+}
+.POS–terminalE–kassa .choice .container .main .list .terminals .info ul li p {
+  color: rgba(0, 0, 0, 0.6);
+}
+.POS–terminalE–kassa .choice .container .main .list .terminals .btn {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.POS–terminalE–kassa .choice .container .main .list .terminals .btn a button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 13px 0px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.POS–terminalE–kassa .choice .container .main .list .terminals .btn a:first-child button {
+  background: hsla(0, 0%, 100%, 0);
+}
+.POS–terminalE–kassa .choice .container .main .list .terminals .btn a:first-child button:hover {
+  background: #f4f5f4;
+}
+.POS–terminalE–kassa .choice .container .main .list .terminals .btn a:last-child button {
+  background: #058d66;
+  color: white;
+}
+.POS–terminalE–kassa .choice .container .main .list .terminals .btn a:last-child button:hover {
+  opacity: 0.8;
+}
+.POS–terminalE–kassa .choice .container .extra {
+  margin-top: 50px;
+}
+.POS–terminalE–kassa .choice .container .extra p {
+  font-size: 18px;
+}
+
+.documents {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.documents .container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  max-width: 1400px;
+}
+.documents .container .heading h1 {
+  font-size: 30px;
+}
+.documents .container .main {
+  margin-top: 50px;
+  width: 100%;
+}
+.documents .container .main ul {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  list-style: none;
+}
+.documents .container .main ul li {
+  width: calc((100% - 40px) / 3);
+  padding: 15px;
+}
+.documents .container .main ul li .head {
+  margin-bottom: 10px;
+}
+.documents .container .main ul li .par {
+  font-size: 16.5px;
+  line-height: 25px;
+  width: 330px;
+  letter-spacing: 0.5px;
+}
+.documents .container .main ul li .btn {
+  width: 100%;
+  margin-top: 50px;
+}
+.documents .container .main ul li .btn a {
+  text-decoration: none;
+}
+.documents .container .main ul li .btn a button {
+  border: none;
+  color: #058d66;
+  display: flex;
+  align-items: center;
+  background: white;
+}
+.documents .container .main ul li .btn a button i {
+  margin-left: 15px;
+}
+
+.freedom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  height: 400px;
+  background-color: #f4f5f4;
+}
+.freedom .container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.freedom .container .main {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.freedom .container .main .heading {
+  margin-right: 100px;
+  width: 500px;
+}
+.freedom .container .main .heading h1 {
+  font-size: 35px;
+}
+
+.POS–terminalE–kassa {
+  margin-top: 70px;
+  width: 100%;
+}
+.POS–terminalE–kassa .opening {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  background-color: rgb(223, 242, 236);
+}
+.POS–terminalE–kassa .opening .container {
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/slider/acquiring.png");
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: 600px -240px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  padding: 0px 20px;
+  max-width: 1400px;
+}
+.POS–terminalE–kassa .opening .container .main {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.POS–terminalE–kassa .opening .container .main .heading {
+  margin-bottom: 30px;
+}
+.POS–terminalE–kassa .opening .container .main .heading h1 {
+  font-size: 45px;
+  width: 550px;
+}
+.POS–terminalE–kassa .opening .container .main .par {
+  margin-bottom: 40px;
+}
+.POS–terminalE–kassa .opening .container .main .btn a button {
+  font-size: 14px;
+  padding: 13px 33px;
+  border: none;
+  border-radius: 5px;
+  background: #058d66;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.POS–terminalE–kassa .opening .container .main .btn a button:hover {
+  opacity: 0.8;
+}
+
+.POS–terminalE–kassa .period {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  letter-spacing: 0.5px;
+}
+.POS–terminalE–kassa .period .container {
+  margin-top: 100px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  padding: 0px 20px;
+}
+.POS–terminalE–kassa .period .container .heading h1 {
+  font-size: 30px;
+}
+.POS–terminalE–kassa .period .container .heading p {
+  margin-top: 30px;
+}
+.POS–terminalE–kassa .period .container .list {
+  margin-top: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.POS–terminalE–kassa .period .container .list p {
+  color: rgba(0, 0, 0, 0.38);
+}
+.POS–terminalE–kassa .period .container .list ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.POS–terminalE–kassa .period .container .list ul:first-child li:first-child .first .icon {
+  background: rgb(224, 243, 237);
+}
+.POS–terminalE–kassa .period .container .list ul:first-child li:first-child i {
+  color: #058d66;
+}
+.POS–terminalE–kassa .period .container .list ul:first-child li:nth-child(2) .first .icon {
+  background: rgb(255, 235, 240);
+}
+.POS–terminalE–kassa .period .container .list ul:first-child li:nth-child(2) i {
+  color: red;
+}
+.POS–terminalE–kassa .period .container .list ul:first-child li:last-child .first .icon {
+  background: rgb(253, 246, 231);
+}
+.POS–terminalE–kassa .period .container .list ul:first-child li:last-child i {
+  color: orange;
+}
+.POS–terminalE–kassa .period .container .list ul li {
+  display: flex;
+  width: 44%;
+}
+.POS–terminalE–kassa .period .container .list ul li .second {
+  margin-left: 20px;
+}
+.POS–terminalE–kassa .period .container .list ul li .second h1 {
+  margin-bottom: 10px;
+}
+.POS–terminalE–kassa .period .container .list ul li .second p {
+  font-size: 17px;
+}
+.POS–terminalE–kassa .period .container .list ul li .first {
+  height: 60px;
+  min-width: 60px;
+}
+.POS–terminalE–kassa .period .container .list ul li .first .icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.POS–terminalE–kassa .period .container .list ul li .first .icon i {
+  font-size: 25px;
+}
+
+.POS–terminalE–kassa .steps {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.POS–terminalE–kassa .steps .container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding: 0px 20px;
+}
+.POS–terminalE–kassa .steps .container .heading {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.POS–terminalE–kassa .steps .container .heading h1 {
+  font-size: 35px;
+}
+.POS–terminalE–kassa .steps .container .main {
+  width: 100%;
+}
+.POS–terminalE–kassa .steps .container .main ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+.POS–terminalE–kassa .steps .container .main ul li {
+  width: calc((100% - 40px) / 3);
+  display: flex;
+  align-items: center;
+}
+.POS–terminalE–kassa .steps .container .main ul li .left {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+}
+.POS–terminalE–kassa .steps .container .main ul li:first-child .left {
+  background: #e0f3ed;
+  color: #058d66;
+}
+.POS–terminalE–kassa .steps .container .main ul li:nth-child(2) .left {
+  background: #ffebf0;
+  color: red;
+}
+.POS–terminalE–kassa .steps .container .main ul li:last-child .left {
+  background: #058d66;
+  color: #e0f3ed;
+}
+.POS–terminalE–kassa .steps .container .main ul li .right p {
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 25px;
+  font-size: 17px;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.cards .container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.cards .container .lists {
+  padding: 0px 35px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cards .container .lists .li4 {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 35px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transition: 0.5s;
+  margin: 15px 0px;
+  border-radius: 10px;
+}
+.cards .container .lists .li4:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cards .container .lists .li4 .image {
+  margin-right: 50px;
+}
+.cards .container .lists .li4 .image img {
+  width: 320px;
+}
+.cards .container .lists .li4 .information {
+  margin-top: 10px;
+  width: 710px;
+}
+.cards .container .lists .li4 .information .heading {
+  margin-bottom: 10px;
+}
+.cards .container .lists .li4 .information .par {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+.cards .container .lists .li4 .information .btn {
+  margin-top: 20px;
+}
+.cards .container .lists .li4 .information .btn a {
+  text-decoration: none;
+}
+.cards .container .lists .li4 .information .btn a button {
+  padding: 12px 24px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.cards .container .lists .li4 .information .btn a:first-child button {
+  background: #058d66;
+  color: white;
+}
+.cards .container .lists .li4 .information .btn a:first-child button:hover {
+  opacity: 0.8;
+}
+.cards .container .lists .li4 .information .btn a:last-child button {
+  background: transparent;
+  color: #058d66;
+  padding: 12px 40px;
+}
+.cards .container .lists .li4 .information .btn a:last-child button:hover {
+  background: rgb(224, 243, 237);
+}
+.cards .container .lists .li4 .information .extra ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.cards .container .lists .li4 .information .extra ul li p {
+  color: rgba(0, 0, 0, 0.6);
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.cards .container .lists .li4 .information .extra ul li h1 {
+  font-size: 18px;
+}
+
+.biznesKartlar .FAQ {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.biznesKartlar .FAQ .container {
+  margin-top: 120px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 35px;
+}
+.biznesKartlar .FAQ .container .heading {
+  margin-bottom: 50px;
+}
+.biznesKartlar .FAQ .container .heading h1 {
+  font-size: 30px;
+}
+.biznesKartlar .FAQ .container .accordion ul {
+  list-style: none;
+}
+.biznesKartlar .FAQ .container .accordion ul li {
+  margin: 10px 0px;
+  padding: 8px 16px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  height: 65px;
+  overflow: hidden;
+  transition: 0.5s !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.biznesKartlar .FAQ .container .accordion ul li .bottom {
+  margin-top: 20px;
+  line-height: 25px;
+}
+.biznesKartlar .FAQ .container .accordion ul li .bottom p {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 5px;
+}
+.biznesKartlar .FAQ .container .accordion ul li .bottom a {
+  color: #058d66;
+  text-decoration: none;
+}
+.biznesKartlar .FAQ .container .accordion ul li .top {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.biznesKartlar .FAQ .container .accordion ul li .top .left {
+  font-size: 18px;
+}
+.biznesKartlar .FAQ .container .accordion ul li .top .rightIcon h1 {
+  color: #058d66;
+  font-size: 40px;
+}
+.biznesKartlar .active .left {
+  color: #058d66 !important;
+}
+
+.biznesKartlar {
+  margin-top: 70px;
+  width: 100%;
+}
+.biznesKartlar .inform {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.biznesKartlar .inform .container {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+.biznesKartlar .inform .container .right {
+  margin-left: 100px;
+}
+.biznesKartlar .inform .container .right img {
+  width: 600px;
+  height: 300px;
+}
+.biznesKartlar .inform .container .left {
+  display: flex;
+  flex-direction: column;
+}
+.biznesKartlar .inform .container .left .head {
+  margin-bottom: 30px;
+}
+.biznesKartlar .inform .container .left .head h1 {
+  font-size: 35px;
+}
+.biznesKartlar .inform .container .left .head h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.biznesKartlar .inform .container .left .head h3 {
+  font-size: 25px;
+}
+.biznesKartlar .inform .container .left .par {
+  color: rgba(0, 0, 0, 0.6);
+  width: 450px;
+  margin-bottom: 40px;
+}
+
+.order {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/business-cards/for-all-needs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  height: 450px;
+}
+.order .container {
+  width: 80%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 0px 35px;
+}
+.order .container .main {
+  width: 100%;
+}
+.order .container .main .heading {
+  margin-bottom: 40px;
+}
+.order .container .main .heading h1 {
+  font-size: 50px;
+  line-height: 50px;
+}
+.order .container .main .information ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+.order .container .main .information ul li p {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 5px;
+}
+.order .container .main .btn {
+  margin-top: 70px;
+}
+.order .container .main .btn a button {
+  transition: 0.5s;
+  cursor: pointer;
+  padding: 15px 34px;
+  border: none;
+  border-radius: 5px;
+  background: #058d66;
+  color: white;
+}
+.order .container .main .btn a button:hover {
+  opacity: 0.8;
+}
+
+.simpleStepsSecond {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.simpleStepsSecond .container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  padding: 0px 35px;
+  margin-top: 100px;
+}
+.simpleStepsSecond .container .heading {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.simpleStepsSecond .container .heading h1 {
+  font-size: 30px;
+}
+.simpleStepsSecond .container .main {
+  width: 100%;
+}
+.simpleStepsSecond .container .main ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.simpleStepsSecond .container .main ul li {
+  padding: 10px;
+  width: calc((100% - 30px) / 3);
+}
+.simpleStepsSecond .container .main ul li:first-child .icon {
+  background: #f1f9f7;
+}
+.simpleStepsSecond .container .main ul li:first-child .icon i {
+  color: #058d66;
+}
+.simpleStepsSecond .container .main ul li:nth-child(2) .icon {
+  background: #ffebf0;
+}
+.simpleStepsSecond .container .main ul li:nth-child(2) .icon i {
+  color: red;
+}
+.simpleStepsSecond .container .main ul li:last-child .icon {
+  background: #fdf6e7;
+}
+.simpleStepsSecond .container .main ul li:last-child .icon i {
+  color: orange;
+}
+.simpleStepsSecond .container .main ul li .icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.simpleStepsSecond .container .main ul li .icon i {
+  font-size: 22px;
+}
+.simpleStepsSecond .container .main ul li .head {
+  margin-bottom: 10px;
+}
+.simpleStepsSecond .container .main ul li .par {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+}
+
+.biznesKartlar {
+  width: 100%;
+}
+.biznesKartlar .slider {
+  margin-top: 20px;
+  width: 100%;
+  position: relative;
+}
+.biznesKartlar .slider .prev,
+.biznesKartlar .slider .next {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  position: absolute;
+  background: rgba(0, 125, 87, 0.08);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+  z-index: 4;
+}
+.biznesKartlar .slider .prev i,
+.biznesKartlar .slider .next i {
+  color: #058d66;
+}
+.biznesKartlar .slider .prev:hover,
+.biznesKartlar .slider .next:hover {
+  opacity: 0.9;
+}
+.biznesKartlar .slider .prev {
+  left: 40px;
+}
+.biznesKartlar .slider .next {
+  right: 40px;
+}
+.biznesKartlar .slider .container {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+.biznesKartlar .slider .container .slide {
+  min-width: 100%;
+  transition: 0.5s;
+  height: 500px;
+  width: 100%;
+}
+.biznesKartlar .slider .container .slide:first-child .all .left .head h1 {
+  background: linear-gradient(87.82deg, #d91321 13.21%, #1bad6f 78.04%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.biznesKartlar .slider .container .slide:first-child {
+  background-color: rgb(224, 243, 237);
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/slider/digital-card-slider.png");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: 800px;
+}
+.biznesKartlar .slider .container .slide:last-child {
+  background-color: rgb(231, 244, 249);
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/slider/business-cards.png");
+  background-position: 100%;
+  background-size: 650px;
+  background-repeat: no-repeat;
+}
+.biznesKartlar .slider .container .slide .all {
+  width: 80%;
+  padding: 0px 20px;
+  margin: 0px auto;
+  margin-top: 100px;
+  display: flex;
+}
+.biznesKartlar .slider .container .slide .all .left .head h1 {
+  font-size: 50px;
+  letter-spacing: 0.5px;
+}
+.biznesKartlar .slider .container .slide .all .left .par p {
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+}
+.biznesKartlar .slider .container .slide .all .left .btn {
+  margin-top: 40px;
+}
+.biznesKartlar .slider .container .slide .all .left .btn a {
+  text-decoration: none;
+}
+.biznesKartlar .slider .container .slide .all .left .btn a:first-child button {
+  background: #058d66;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  margin-right: 15px;
+}
+.biznesKartlar .slider .container .slide .all .left .btn a:nth-child(2) button {
+  background: transparent;
+  color: #058d66;
+  padding: 15px 30px;
+  border: 1px solid #c5c7c6;
+}
+.biznesKartlar .slider .container .slide .all .left .btn a button {
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.biznesKartlar .slider .container .slide .all .left .btn a button:hover {
+  opacity: 0.9;
+}
+
+.dot {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 2px;
+  background: transparent;
+  border-radius: 50%;
+  border: 2px solid #058d66;
+  display: inline-block;
+  transition: opacity 0.6s ease;
+  opacity: 0.5;
+}
+
+.dots {
+  position: absolute;
+  bottom: 20px;
+  z-index: 5;
+}
+
+.dot:hover {
+  opacity: 0.8;
+}
+
+.current {
+  opacity: 1 !important;
+}
+
+.biznesKreditləri .advantages {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  letter-spacing: 0.5px;
+}
+.biznesKreditləri .advantages .container {
+  margin-top: 100px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  padding: 0px 20px;
+}
+.biznesKreditləri .advantages .container .extra {
+  margin-top: 100px;
+}
+.biznesKreditləri .advantages .container .extra h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.biznesKreditləri .advantages .container .extra p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 17px;
+}
+.biznesKreditləri .advantages .container .heading {
+  width: 100%;
+}
+.biznesKreditləri .advantages .container .heading h1 {
+  font-size: 30px;
+}
+.biznesKreditləri .advantages .container .heading p {
+  margin-top: 30px;
+}
+.biznesKreditləri .advantages .container .list {
+  width: 100%;
+  margin-top: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.biznesKreditləri .advantages .container .list p {
+  color: rgba(0, 0, 0, 0.38);
+}
+.biznesKreditləri .advantages .container .list ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.biznesKreditləri .advantages .container .list ul:first-child li:first-child .first .icon {
+  background: rgb(224, 243, 237);
+}
+.biznesKreditləri .advantages .container .list ul:first-child li:first-child i {
+  color: #058d66;
+}
+.biznesKreditləri .advantages .container .list ul:first-child li:last-child .first .icon {
+  background: rgb(255, 235, 240);
+}
+.biznesKreditləri .advantages .container .list ul:first-child li:last-child i {
+  color: red;
+}
+.biznesKreditləri .advantages .container .list ul li {
+  display: flex;
+  width: calc((100% - 10px) / 2);
+}
+.biznesKreditləri .advantages .container .list ul li .second {
+  margin-left: 20px;
+}
+.biznesKreditləri .advantages .container .list ul li .second h1 {
+  margin-bottom: 10px;
+}
+.biznesKreditləri .advantages .container .list ul li .second p {
+  font-size: 17px;
+}
+.biznesKreditləri .advantages .container .list ul li .first {
+  height: 60px;
+  min-width: 60px;
+}
+.biznesKreditləri .advantages .container .list ul li .first .icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.biznesKreditləri .advantages .container .list ul li .first .icon i {
+  font-size: 25px;
+}
+
+.conditions {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.conditions .container {
+  width: 80%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.conditions .container .heading {
+  margin-bottom: 40px;
+}
+.conditions .container .heading h1 {
+  font-size: 35px;
+}
+.conditions .container .main {
+  width: 1300px;
+  display: flex;
+  justify-content: center;
+}
+.conditions .container .main table {
+  display: flex;
+  width: 1300px;
+}
+.conditions .container .main table tbody tr {
+  display: flex;
+  align-items: normal;
+}
+.conditions .container .main table tbody tr td {
+  width: 500px;
+  padding: 20px 10px;
+}
+.conditions .container .main table tbody tr td p {
+  color: rgba(0, 0, 0, 0.6);
+}
+.conditions .container .main table tbody tr td h1 {
+  font-size: 17px;
+}
+
+.biznesKreditləri .form {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.biznesKreditləri .form .container {
+  width: 80%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.biznesKreditləri .form .container .heading {
+  margin-bottom: 50px;
+}
+.biznesKreditləri .form .container .heading h1 {
+  font-size: 35px;
+}
+.biznesKreditləri .form .container .main {
+  margin-bottom: 70px;
+  width: 100%;
+}
+.biznesKreditləri .form .container .main form {
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+}
+.biznesKreditləri .form .container .main form input {
+  width: 360px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.biznesKreditləri .form .container .main form input::-moz-placeholder {
+  font-size: 15px;
+}
+.biznesKreditləri .form .container .main form input::placeholder {
+  font-size: 15px;
+}
+.biznesKreditləri .form .container .main form input:focus {
+  outline-color: #058d66;
+}
+.biznesKreditləri .form .container .main form input:focus::-moz-placeholder {
+  color: #058d66;
+}
+.biznesKreditləri .form .container .main form input:focus::placeholder {
+  color: #058d66;
+}
+.biznesKreditləri .form .container .main form a {
+  text-decoration: none;
+}
+.biznesKreditləri .form .container .main form a button {
+  cursor: pointer;
+  background: #058d66;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  width: 360px;
+  padding: 20px;
+}
+
+.biznesKreditləri {
+  margin-top: 100px;
+  width: 100%;
+}
+.biznesKreditləri .opening {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/business-loans/PngItem_2984183.png");
+  background-repeat: no-repeat;
+  background-size: 450px;
+  background-position: 800px 120px;
+  padding-bottom: 150px;
+}
+.biznesKreditləri .opening .container {
+  width: 80%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: center;
+}
+.biznesKreditləri .opening .container .main {
+  margin-top: 80px;
+  width: 100%;
+}
+.biznesKreditləri .opening .container .main .heading h1 {
+  margin: 20px 0px;
+  font-size: 50px;
+}
+.biznesKreditləri .opening .container .main .heading p {
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+}
+.biznesKreditləri .opening .container .main .heading p i {
+  margin: 0px 20px;
+  font-size: 10px;
+}
+.biznesKreditləri .opening .container .main .btn {
+  margin-top: 35px;
+}
+.biznesKreditləri .opening .container .main .btn a {
+  text-decoration: none;
+}
+.biznesKreditləri .opening .container .main .btn a button {
+  padding: 18px 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background: #058d66;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.biznesKreditləri .opening .container .main .btn a button:hover {
+  opacity: 0.9;
+}
+
+.biznesKreditləri .steps {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  margin-top: 80px;
+}
+.biznesKreditləri .steps .container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+.biznesKreditləri .steps .container .heading {
+  width: 100%;
+}
+.biznesKreditləri .steps .container .heading h1 {
+  font-size: 33px;
+  margin-bottom: 30px;
+}
+.biznesKreditləri .steps .container .heading p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 22px;
+}
+.biznesKreditləri .steps .container .main {
+  margin-top: 80px;
+}
+.biznesKreditləri .steps .container .main ul {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.biznesKreditləri .steps .container .main ul li {
+  width: calc((100% - 40px) / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.biznesKreditləri .steps .container .main ul li .icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.biznesKreditləri .steps .container .main ul li .icon i {
+  font-size: 25px;
+}
+.biznesKreditləri .steps .container .main ul li .head {
+  margin-bottom: 20px;
+}
+.biznesKreditləri .steps .container .main ul li .par p {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.elektronTicarət .advantages {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.elektronTicarət .advantages .container {
+  width: 80%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.elektronTicarət .advantages .container .heading {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.elektronTicarət .advantages .container .heading h1 {
+  font-size: 32px;
+}
+.elektronTicarət .advantages .container .main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.elektronTicarət .advantages .container .main ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  gap: 20px;
+}
+.elektronTicarət .advantages .container .main ul li {
+  background: #fafafa;
+  padding: 20px;
+  width: calc((100% - 40px) / 3);
+}
+.elektronTicarət .advantages .container .main ul li .icon i {
+  font-size: 35px;
+}
+.elektronTicarət .advantages .container .main ul li .head {
+  margin: 15px 0px;
+}
+.elektronTicarət .advantages .container .main ul li .head h1 {
+  font-size: 22px;
+}
+.elektronTicarət .advantages .container .main ul li .par p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.elektronTicarət .advantages .container .main ul:last-child li:first-child .icon i {
+  color: #058d66;
+}
+.elektronTicarət .advantages .container .main ul:last-child li:nth-child(2) .icon i {
+  color: orange;
+}
+.elektronTicarət .advantages .container .main ul:last-child li:last-child .btn {
+  width: 100%;
+}
+.elektronTicarət .advantages .container .main ul:last-child li:last-child .btn a {
+  text-decoration: none;
+}
+.elektronTicarət .advantages .container .main ul:last-child li:last-child .btn a button {
+  width: 100%;
+  padding: 15px;
+  color: white;
+  background: #058d66;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.elektronTicarət .advantages .container .main ul:last-child li:last-child .btn a button:hover {
+  opacity: 0.9;
+}
+.elektronTicarət .advantages .container .main ul:first-child li:first-child .icon i {
+  color: yellow;
+}
+.elektronTicarət .advantages .container .main ul:first-child li:nth-child(2) .icon i {
+  color: blue;
+}
+.elektronTicarət .advantages .container .main ul:first-child li:last-child .icon i {
+  color: purple;
+}
+
+.definition {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.definition .container {
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.definition .container .heading h1 {
+  font-size: 35px;
+  letter-spacing: 0.5px;
+}
+.definition .container .heading p {
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 23px;
+}
+.definition .container .main {
+  margin-top: 60px;
+}
+.definition .container .main ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.definition .container .main ul li {
+  background: #fafafa;
+  width: calc((100% - 30px) / 3);
+  padding: 20px;
+}
+.definition .container .main ul li .icon {
+  margin-bottom: 12px;
+}
+.definition .container .main ul li .icon i {
+  font-size: 40px;
+}
+.definition .container .main ul li .head {
+  margin-bottom: 10px;
+}
+.definition .container .main ul li .head h1 {
+  font-size: 22px;
+}
+.definition .container .main ul li .par p {
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.definition .container .main ul li:first-child .icon i {
+  color: #058d66;
+}
+.definition .container .main ul li:nth-child(2) .icon i {
+  color: yellow;
+}
+.definition .container .main ul li:last-child .icon i {
+  color: red;
+}
+
+.link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/e-commerce/pay-by-link-background.jpg");
+  background-size: cover;
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+.link .container {
+  width: 80%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/e-commerce/paybylink.png");
+  background-size: 450px;
+  background-repeat: no-repeat;
+  background-position: 100% 110px;
+}
+.link .container .main {
+  width: 100%;
+  padding: 90px 0px;
+}
+.link .container .main .head h1 {
+  font-size: 35px;
+}
+.link .container .main .par {
+  margin-top: 50px;
+}
+.link .container .main .par p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 23px;
+}
+.link .container .main .btn {
+  margin-top: 50px;
+}
+.link .container .main .btn a {
+  text-decoration: none;
+}
+.link .container .main .btn a button {
+  padding: 15px 70px;
+  border: none;
+  border-radius: 5px;
+  background: #058d66;
+  color: white;
+  font-size: 15px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.link .container .main .btn a button:hover {
+  opacity: 0.9;
+}
+
+.elektronTicarət {
+  width: 100%;
+  margin-top: 70px;
+}
+.elektronTicarət .opening {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  background: rgb(224, 243, 237);
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/e-commerce/e-com-man.png");
+  background-repeat: no-repeat;
+  background-size: 470px;
+  background-position: 800px -35px;
+  z-index: 1;
+}
+.elektronTicarət .opening .container {
+  margin-top: 90px;
+  padding: 0px 20px;
+  width: 80%;
+}
+.elektronTicarət .opening .container .main .head h1 {
+  font-size: 55px;
+}
+.elektronTicarət .opening .container .main .par {
+  margin-top: 20px;
+}
+.elektronTicarət .opening .container .main .par p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 23px;
+}
+.elektronTicarət .opening .container .main .btn {
+  margin-top: 30px;
+}
+.elektronTicarət .opening .container .main .btn a {
+  text-decoration: none;
+}
+.elektronTicarət .opening .container .main .btn a button {
+  padding: 15px 90px;
+  border: none;
+  background: #058d66;
+  border-radius: 5px;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 16px;
+}
+.elektronTicarət .opening .container .main .btn a button:hover {
+  opacity: 0.9;
+}
+
+.elektronTicarət .steps {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  margin-top: 80px;
+  height: 500px;
+}
+.elektronTicarət .steps .container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+.elektronTicarət .steps .container .heading {
+  width: 100%;
+}
+.elektronTicarət .steps .container .heading h1 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.elektronTicarət .steps .container .heading p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 22px;
+}
+.elektronTicarət .steps .container .main {
+  margin-top: 80px;
+}
+.elektronTicarət .steps .container .main ul {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.elektronTicarət .steps .container .main ul li {
+  width: calc((100% - 40px) / 3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.elektronTicarət .steps .container .main ul li .icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.elektronTicarət .steps .container .main ul li .icon i {
+  font-size: 25px;
+}
+.elektronTicarət .steps .container .main ul li .head {
+  margin-bottom: 20px;
+}
+.elektronTicarət .steps .container .main ul li .par p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.woocommerce {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  letter-spacing: 0.5px;
+  background: linear-gradient(83.02deg, rgba(245, 215, 255, 0.56), rgba(240, 224, 243, 0.56) 41.84%, rgba(238, 231, 253, 0.56) 66.32%, rgba(235, 247, 255, 0.56));
+  padding-top: 30px;
+}
+.woocommerce .container {
+  width: 80%;
+  padding: 30px 20px;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/e-commerce/Free-Bag-Mockup.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.woocommerce .container .main {
+  display: flex;
+  flex-direction: column;
+}
+.woocommerce .container .main .heading {
+  margin-bottom: 30px;
+}
+.woocommerce .container .main .par p {
+  font-size: 30px;
+}
+.woocommerce .container .main .btn {
+  margin-top: 30px;
+}
+.woocommerce .container .main .btn a {
+  text-decoration: none;
+}
+.woocommerce .container .main .btn a button {
+  padding: 15px 60px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  background: #9c5c8f;
+  color: white;
+  cursor: pointer;
+}
+
+.bankQarantiyasi .advantages {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.bankQarantiyasi .advantages .container {
+  padding: 0px 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.bankQarantiyasi .advantages .container .extra {
+  margin-top: 80px;
+}
+.bankQarantiyasi .advantages .container .extra h1 {
+  font-size: 35px;
+}
+.bankQarantiyasi .advantages .container .extra p {
+  margin-top: 25px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+}
+.bankQarantiyasi .advantages .container .main {
+  display: flex;
+  flex-direction: column;
+}
+.bankQarantiyasi .advantages .container .main .choice {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.bankQarantiyasi .advantages .container .main .choice a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.bankQarantiyasi .advantages .container .main .choice li a {
+  padding: 0px 4px 12px 4px;
+  position: relative;
+  color: rgba(0, 0, 0, 0.38);
+  cursor: pointer;
+}
+.bankQarantiyasi .advantages .container .main .about {
+  margin-top: 50px;
+  display: flex;
+  gap: 10px;
+  transition: 0.5s;
+  width: 100%;
+}
+.bankQarantiyasi .advantages .container .main .about li {
+  width: calc((100% - 20px) / 4);
+  transition: 0.5s;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.bankQarantiyasi .advantages .container .main .about li .head {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.bankQarantiyasi .advantages .container .main .about li .par p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 17px;
+}
+.bankQarantiyasi .advantages .container .main .about li .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bankQarantiyasi .advantages .container .main .about li .icon i {
+  font-size: 24px;
+}
+.bankQarantiyasi .advantages .container .main .about li:first-child .icon {
+  background: rgb(224, 243, 237);
+}
+.bankQarantiyasi .advantages .container .main .about li:first-child .icon i {
+  color: #058d66;
+}
+.bankQarantiyasi .advantages .container .main .about li:nth-child(2) .icon {
+  background: rgb(255, 235, 240);
+}
+.bankQarantiyasi .advantages .container .main .about li:nth-child(2) .icon i {
+  color: red;
+}
+.bankQarantiyasi .advantages .container .main .about li:nth-child(3) .icon {
+  background: rgb(253, 246, 231);
+}
+.bankQarantiyasi .advantages .container .main .about li:nth-child(3) .icon i {
+  color: orange;
+}
+.bankQarantiyasi .advantages .container .main .about li:last-child .icon {
+  background: rgb(231, 244, 249);
+}
+.bankQarantiyasi .advantages .container .main .about li:last-child .icon i {
+  color: blue;
+}
+
+.active a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 2.5px;
+  background: #058d66;
+}
+
+.hide {
+  display: none !important;
+}
+
+.bankQarantiyasi .form {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.bankQarantiyasi .form .container {
+  width: 80%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.bankQarantiyasi .form .container .heading {
+  margin-bottom: 50px;
+}
+.bankQarantiyasi .form .container .heading h1 {
+  font-size: 35px;
+}
+.bankQarantiyasi .form .container .main {
+  margin-bottom: 70px;
+  width: 100%;
+}
+.bankQarantiyasi .form .container .main form {
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+}
+.bankQarantiyasi .form .container .main form input {
+  width: 360px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.bankQarantiyasi .form .container .main form input::-moz-placeholder {
+  font-size: 15px;
+}
+.bankQarantiyasi .form .container .main form input::placeholder {
+  font-size: 15px;
+}
+.bankQarantiyasi .form .container .main form input:focus {
+  outline-color: #058d66;
+}
+.bankQarantiyasi .form .container .main form input:focus::-moz-placeholder {
+  color: #058d66;
+}
+.bankQarantiyasi .form .container .main form input:focus::placeholder {
+  color: #058d66;
+}
+.bankQarantiyasi .form .container .main form a {
+  text-decoration: none;
+}
+.bankQarantiyasi .form .container .main form a button {
+  cursor: pointer;
+  background: #058d66;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  width: 360px;
+  padding: 20px;
+}
+
+.qarantiyalar {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.qarantiyalar .container {
+  width: 80%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.qarantiyalar .container .list6 {
+  margin-top: 50px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.qarantiyalar .container .list6 .li6 {
+  display: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+}
+.qarantiyalar .container .list6 .li6 .heading h1 {
+  font-size: 26px;
+}
+.qarantiyalar .container .list6 .li6 .btn {
+  margin-top: 60px;
+}
+.qarantiyalar .container .list6 .li6 .btn a {
+  text-decoration: none;
+}
+.qarantiyalar .container .list6 .li6 .btn a button {
+  padding: 15px 30px;
+  background: #058d66;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.qarantiyalar .container .list6 .li6 .btn a button:hover {
+  opacity: 0.8;
+}
+.qarantiyalar .container .list6 .li6 .main {
+  width: 100%;
+}
+.qarantiyalar .container .list6 .li6 .main ul {
+  display: flex;
+  flex-direction: column;
+}
+.qarantiyalar .container .list6 .li6 .main ul li {
+  display: flex;
+}
+.qarantiyalar .container .list6 .li6 .main ul li i {
+  margin-right: 10px;
+  color: #058d66;
+}
+.qarantiyalar .container .list6 .li6 .main ul li p {
+  color: rgba(0, 0, 0, 0.6);
+  letter-spacing: 0.25px;
+  font-size: 17px;
+  line-height: 25px;
+}
+.qarantiyalar .container .heading {
+  margin-bottom: 30px;
+}
+.qarantiyalar .container .heading h1 {
+  font-size: 35px;
+}
+.qarantiyalar .container .choice {
+  margin-bottom: 15px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.qarantiyalar .container .choice li {
+  cursor: pointer;
+  padding: 10px 15px;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.active {
+  color: black !important;
+  border-color: #058d66 !important;
+}
+
+.visible {
+  display: block !important;
+}
+
+.bankQarantiyasi {
+  margin-top: 70px;
+  width: 100%;
+}
+.bankQarantiyasi .opening {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(276.89deg, #fff8f8 -11.21%, #f9fcff 103.31%);
+  padding-bottom: 150px;
+  height: 460px;
+}
+.bankQarantiyasi .opening .container {
+  width: 80%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.bankQarantiyasi .opening .container .main {
+  margin-top: 80px;
+}
+.bankQarantiyasi .opening .container .main .heading h1 {
+  margin: 20px 0px;
+  font-size: 50px;
+}
+.bankQarantiyasi .opening .container .main .heading p {
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+}
+.bankQarantiyasi .opening .container .main .heading p i {
+  margin: 0px 20px;
+  font-size: 10px;
+}
+.bankQarantiyasi .opening .container .main .btn {
+  margin-top: 35px;
+}
+.bankQarantiyasi .opening .container .main .btn a {
+  text-decoration: none;
+}
+.bankQarantiyasi .opening .container .main .btn a button {
+  padding: 18px 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background: #058d66;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.bankQarantiyasi .opening .container .main .btn a button:hover {
+  opacity: 0.9;
+}
+
+.bankQarantiyasi .steps {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.bankQarantiyasi .steps .container {
+  width: 80%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.bankQarantiyasi .steps .container .heading {
+  margin-bottom: 50px;
+}
+.bankQarantiyasi .steps .container .heading h1 {
+  font-size: 35px;
+}
+.bankQarantiyasi .steps .container .main {
+  width: 100%;
+}
+.bankQarantiyasi .steps .container .main ul {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.bankQarantiyasi .steps .container .main ul li {
+  width: calc((100% - 40px) / 4);
+}
+.bankQarantiyasi .steps .container .main ul li .icon {
+  margin-bottom: 20px;
+}
+
+.biznesPasha .advantages {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.biznesPasha .advantages .container {
+  width: 80%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.biznesPasha .advantages .container .heading h1 {
+  font-size: 33px;
+  margin-bottom: 50px;
+}
+.biznesPasha .advantages .container .main {
+  width: 100%;
+  display: flex;
+}
+.biznesPasha .advantages .container .main .left ul {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.biznesPasha .advantages .container .main .left ul li {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+.biznesPasha .advantages .container .main .left ul li p {
+  font-size: 28px;
+}
+.biznesPasha .advantages .container .main .left ul li i {
+  margin-right: 30px;
+  font-size: 17px;
+}
+
+.biznesPasha {
+  margin-top: 70px;
+  width: 100%;
+}
+.biznesPasha .mobile {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(240, 245, 255);
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/mobile-app/app.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100%;
+  padding-bottom: 150px;
+  height: 400px;
+}
+.biznesPasha .mobile .container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.biznesPasha .mobile .container .main {
+  margin-top: 50px;
+}
+.biznesPasha .mobile .container .main .heading .images {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  gap: 20px;
+}
+.biznesPasha .mobile .container .main .heading .images .left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.biznesPasha .mobile .container .main .heading .images .left img {
+  width: 140px;
+  cursor: pointer;
+}
+.biznesPasha .mobile .container .main .heading a {
+  text-decoration: none;
+}
+.biznesPasha .mobile .container .main .heading a button {
+  font-size: 15px;
+  padding: 12px 45px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 5px;
+  margin-top: 40px;
+  background: #058d66;
+  color: white;
+}
+.biznesPasha .mobile .container .main .heading a button:hover {
+  opacity: 0.8;
+}
+.biznesPasha .mobile .container .main .heading h1 {
+  margin: 20px 0px;
+  font-size: 35px;
+}
+.biznesPasha .mobile .container .main .heading p {
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  line-height: 27px;
+}
+.biznesPasha .mobile .container .main .heading p i {
+  margin: 0px 20px;
+  font-size: 10px;
+}
+
+.biznesPasha {
+  margin-top: 70px;
+  width: 100%;
+}
+.biznesPasha .opening {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(240, 245, 255);
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/mobile-app/mobile.png");
+  background-repeat: no-repeat;
+  background-size: 1050px;
+  background-position: 100%;
+  padding-bottom: 150px;
+  height: 550px;
+}
+.biznesPasha .opening .container {
+  width: 80%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.biznesPasha .opening .container .main {
+  margin-top: 50px;
+}
+.biznesPasha .opening .container .main .heading .images {
+  margin-top: 40px;
+}
+.biznesPasha .opening .container .main .heading .images img {
+  margin-right: 15px;
+  width: 160px;
+}
+.biznesPasha .opening .container .main .heading a {
+  text-decoration: none;
+}
+.biznesPasha .opening .container .main .heading a button {
+  font-size: 15px;
+  padding: 12px 45px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 5px;
+  margin-top: 40px;
+  background: #058d66;
+  color: white;
+}
+.biznesPasha .opening .container .main .heading a button:hover {
+  opacity: 0.8;
+}
+.biznesPasha .opening .container .main .heading h1 {
+  margin: 20px 0px;
+  font-size: 65px;
+}
+.biznesPasha .opening .container .main .heading p {
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  line-height: 27px;
+}
+.biznesPasha .opening .container .main .heading p i {
+  margin: 0px 20px;
+  font-size: 10px;
+}
+
+.biznesPasha .whatIs {
+  width: 100%;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+.biznesPasha .whatIs .container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+.biznesPasha .whatIs .container .main {
+  width: 100%;
+  padding: 0px 20px;
+}
+.biznesPasha .whatIs .container .main h1 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+.biznesPasha .whatIs .container .main p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 24px;
+  line-height: 27px;
+}
+
+.biznesPasha .whoCan {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.biznesPasha .whoCan .container {
+  width: 80%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.biznesPasha .whoCan .container .heading {
+  margin-bottom: 50px;
+}
+.biznesPasha .whoCan .container .heading h1 {
+  font-size: 35px;
+}
+.biznesPasha .whoCan .container .heading p {
+  margin-top: 40px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 23px;
+}
+.biznesPasha .whoCan .container .main {
+  width: 100%;
+}
+.biznesPasha .whoCan .container .main ul {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+.biznesPasha .whoCan .container .main ul li {
+  background: #fafafa;
+  width: calc((100% - 40px) / 3);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.biznesPasha .whoCan .container .main ul li:first-child .icon i {
+  color: #058d66;
+}
+.biznesPasha .whoCan .container .main ul li:nth-child(2) .icon i {
+  color: rgba(255, 255, 0, 0.8);
+}
+.biznesPasha .whoCan .container .main ul li:last-child .icon i {
+  color: orange;
+}
+.biznesPasha .whoCan .container .main ul li .icon i {
+  font-size: 42px;
+}
+.biznesPasha .whoCan .container .main ul li .head {
+  margin-top: 20px;
+  letter-spacing: 0.5px;
+}
+.biznesPasha .whoCan .container .main ul li .par {
+  margin-top: 20px;
+}
+.biznesPasha .whoCan .container .main ul li .par p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 22px;
+}
+
+.OnlaynBiznesKreditləri {
+  width: 100%;
+  margin-top: 70px;
+  letter-spacing: 0.5px;
+}
+.OnlaynBiznesKreditləri .main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.OnlaynBiznesKreditləri .main .container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  margin-top: 80px;
+}
+.OnlaynBiznesKreditləri .main .container .heading {
+  width: 100%;
+}
+.OnlaynBiznesKreditləri .main .container .heading h1 {
+  font-size: 45px;
+}
+.OnlaynBiznesKreditləri .main .container .heading p {
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.OnlaynBiznesKreditləri .main .container .main {
+  margin-top: 30px;
+  width: 100%;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .li5 {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .li5:first-child {
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/online-business-credit/flexible_credit_cover.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .li5:last-child {
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/online-business-credit/tobacco-card-background.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .li5:last-child .extra {
+  margin-top: 15px;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .li5:last-child .extra p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .head {
+  width: 100%;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .head h1 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .head p {
+  font-size: 19px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .info {
+  margin-top: 30px;
+  justify-content: start;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .info ul {
+  list-style: none;
+  display: flex;
+  gap: 250px;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .info ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .info ul li p {
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 15px;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .btn {
+  margin-top: 30px;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .btn a {
+  text-decoration: none;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .btn a button {
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .btn a:first-child button {
+  color: white;
+  background: #058d66;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .btn a:first-child button:hover {
+  opacity: 0.9;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .btn a:last-child button {
+  padding: 15px 40px !important;
+  color: #058d66;
+  background: transparent;
+}
+.OnlaynBiznesKreditləri .main .container .main .list2 .btn a:last-child button:hover {
+  background-color: #f4f5f4;
+}
+
+.linkləOdəniş .news {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/pay-by-link/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -350px;
+  padding: 100px 20px;
+  height: 500px;
+  margin-top: 100px;
+}
+.linkləOdəniş .news .container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.linkləOdəniş .news .container .main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.linkləOdəniş .news .container .main .heading h1 {
+  font-size: 45px;
+  color: white;
+}
+.linkləOdəniş .news .container .main .btn {
+  margin-top: 40px;
+}
+.linkləOdəniş .news .container .main .btn a {
+  text-decoration: none;
+}
+.linkləOdəniş .news .container .main .btn a button {
+  background: #058d66;
+  border-radius: 5px;
+  border: none;
+  padding: 20px 40px;
+  color: white;
+}
+
+.linkləOdəniş {
+  width: 100%;
+  margin-top: 70px;
+}
+.linkləOdəniş .opening {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  background: rgb(224, 243, 237);
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/pay-by-link/girl-with-phone.png");
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: 100% 100%;
+  z-index: 1;
+}
+.linkləOdəniş .opening .container {
+  margin-top: 90px;
+  padding: 0px 20px;
+  width: 80%;
+}
+.linkləOdəniş .opening .container .main .head h1 {
+  font-size: 45px;
+}
+.linkləOdəniş .opening .container .main .par {
+  margin-top: 20px;
+}
+.linkləOdəniş .opening .container .main .par p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+}
+.linkləOdəniş .opening .container .main .btn {
+  margin-top: 30px;
+}
+.linkləOdəniş .opening .container .main .btn a {
+  text-decoration: none;
+}
+.linkləOdəniş .opening .container .main .btn a button {
+  padding: 15px 30px;
+  border: none;
+  background: #058d66;
+  border-radius: 5px;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 16px;
+}
+.linkləOdəniş .opening .container .main .btn a button:hover {
+  opacity: 0.9;
+}
+
+.linkləOdəniş .reason {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  letter-spacing: 0.5px;
+}
+.linkləOdəniş .reason .container {
+  margin-top: 40px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  padding: 0px 20px;
+}
+.linkləOdəniş .reason .container .heading h1 {
+  font-size: 30px;
+}
+.linkləOdəniş .reason .container .heading p {
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+}
+.linkləOdəniş .reason .container .list {
+  margin-top: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.linkləOdəniş .reason .container .list p {
+  color: rgba(0, 0, 0, 0.38);
+}
+.linkləOdəniş .reason .container .list ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  width: 100%;
+}
+.linkləOdəniş .reason .container .list ul:first-child li:first-child .first .icon {
+  background: rgb(224, 243, 237);
+}
+.linkləOdəniş .reason .container .list ul:first-child li:first-child i {
+  color: #058d66;
+}
+.linkləOdəniş .reason .container .list ul:first-child li:nth-child(2) .first .icon {
+  background: rgb(255, 235, 240);
+}
+.linkləOdəniş .reason .container .list ul:first-child li:nth-child(2) i {
+  color: red;
+}
+.linkləOdəniş .reason .container .list ul:first-child li:last-child .first .icon {
+  background: rgb(253, 246, 231);
+}
+.linkləOdəniş .reason .container .list ul:first-child li:last-child i {
+  color: orange;
+}
+.linkləOdəniş .reason .container .list ul li {
+  display: flex;
+  width: calc((100% - 20px) / 3);
+}
+.linkləOdəniş .reason .container .list ul li .second {
+  margin-left: 10px;
+}
+.linkləOdəniş .reason .container .list ul li .second h1 {
+  margin-bottom: 15px;
+}
+.linkləOdəniş .reason .container .list ul li .second p {
+  font-size: 17px;
+}
+.linkləOdəniş .reason .container .list ul li .first {
+  height: 60px;
+  min-width: 60px;
+}
+.linkləOdəniş .reason .container .list ul li .first .icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.linkləOdəniş .reason .container .list ul li .first .icon i {
+  font-size: 25px;
+}
+
+.linkləOdəniş .steps {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  letter-spacing: 0.5px;
+}
+.linkləOdəniş .steps .container {
+  margin-top: 100px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+  padding: 0px 20px;
+}
+.linkləOdəniş .steps .container .heading h1 {
+  font-size: 30px;
+}
+.linkləOdəniş .steps .container .list {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.linkləOdəniş .steps .container .list p {
+  color: rgba(0, 0, 0, 0.38);
+}
+.linkləOdəniş .steps .container .list ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  width: 100%;
+}
+.linkləOdəniş .steps .container .list ul:first-child li:first-child .first .icon {
+  background: rgb(224, 243, 237);
+  color: #058d66;
+}
+.linkləOdəniş .steps .container .list ul:first-child li:nth-child(2) .first .icon {
+  background: rgb(255, 235, 240);
+  color: red;
+}
+.linkləOdəniş .steps .container .list ul:first-child li:last-child .first .icon {
+  background: rgb(253, 246, 231);
+  color: orange;
+}
+.linkləOdəniş .steps .container .list ul li {
+  display: flex;
+  width: calc((100% - 20px) / 3);
+}
+.linkləOdəniş .steps .container .list ul li .second {
+  margin-left: 20px;
+}
+.linkləOdəniş .steps .container .list ul li .second h1 {
+  margin-bottom: 14px;
+}
+.linkləOdəniş .steps .container .list ul li .second p {
+  font-size: 17px;
+}
+.linkləOdəniş .steps .container .list ul li .first {
+  height: 60px;
+  min-width: 60px;
+}
+.linkləOdəniş .steps .container .list ul li .first .icon {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+.linkləOdəniş .users {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.linkləOdəniş .users .container {
+  padding: 0px 20px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.linkləOdəniş .users .container .heading {
+  width: 100%;
+}
+.linkləOdəniş .users .container .heading h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.linkləOdəniş .users .container .heading p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+}
+.linkləOdəniş .users .container .main {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.linkləOdəniş .users .container .main ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+.linkləOdəniş .users .container .main ul li {
+  width: calc((100% - 40px) / 3);
+  padding: 20px;
+}
+.linkləOdəniş .users .container .main ul li .icon {
+  margin-bottom: 20px;
+}
+
+.odenisler .advantages {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.odenisler .advantages .container {
+  margin-top: 100px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1400px;
+}
+.odenisler .advantages .container .heading {
+  font-size: 23px;
+  transform: translate(-500px);
+}
+.odenisler .advantages .container .list {
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.odenisler .advantages .container .list p {
+  color: rgba(0, 0, 0, 0.38);
+}
+.odenisler .advantages .container .list ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.odenisler .advantages .container .list ul:first-child li:first-child .first .icon {
+  background: rgb(255, 235, 240);
+}
+.odenisler .advantages .container .list ul:first-child li:first-child i {
+  color: red;
+}
+.odenisler .advantages .container .list ul:first-child li:nth-child(2) .first .icon {
+  background: rgb(231, 244, 249);
+}
+.odenisler .advantages .container .list ul:first-child li:nth-child(2) i {
+  color: blue;
+}
+.odenisler .advantages .container .list ul:first-child li:last-child .first .icon {
+  background: rgb(224, 243, 237);
+}
+.odenisler .advantages .container .list ul:first-child li:last-child i {
+  color: #058d66;
+}
+.odenisler .advantages .container .list ul li {
+  display: flex;
+  align-items: center;
+  width: 44%;
+}
+.odenisler .advantages .container .list ul li .second {
+  margin-left: 20px;
+}
+.odenisler .advantages .container .list ul li .second h1 {
+  margin-bottom: 10px;
+}
+.odenisler .advantages .container .list ul li .second p {
+  font-size: 17px;
+}
+.odenisler .advantages .container .list ul li .first {
+  height: 60px;
+  min-width: 60px;
+}
+.odenisler .advantages .container .list ul li .first .icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.odenisler .advantages .container .list ul li .first .icon i {
+  font-size: 25px;
+}
+
+.excerpts {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.excerpts .container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.excerpts .container .all {
+  display: flex;
+}
+.excerpts .container .main .heading {
+  margin-bottom: 20px;
+}
+.excerpts .container .main .heading h1 {
+  font-size: 30px;
+}
+.excerpts .container .main ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.excerpts .container .main ul li {
+  display: flex;
+  margin: 10px 0px;
+  width: 280px;
+}
+.excerpts .container .main ul li p {
+  color: rgba(0, 0, 0, 0.6);
+}
+.excerpts .container .main ul li i {
+  margin-right: 10px;
+  color: #058d66;
+}
+.excerpts .container .main .btn {
+  margin-top: 30px;
+}
+.excerpts .container .main .btn a button {
+  cursor: pointer;
+  padding: 20px 50px;
+  border: none;
+  background: #058d66;
+  border-radius: 5px;
+  color: white;
+}
+.excerpts .container .image {
+  margin-left: 200px;
+  border-radius: 20px;
+  width: 600px;
+  height: 600px;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/payments/ipad-bg.png");
+  background-repeat: no-repeat;
+  background-size: 500px;
+}
+
+.odenisler .FAQ {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.odenisler .FAQ .container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.odenisler .FAQ .container .heading {
+  margin-bottom: 50px;
+}
+.odenisler .FAQ .container .heading h1 {
+  font-size: 30px;
+}
+.odenisler .FAQ .container .accordion ul {
+  list-style: none;
+}
+.odenisler .FAQ .container .accordion ul li {
+  margin: 10px 0px;
+  padding: 8px 16px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  height: 65px;
+  overflow: hidden;
+  transition: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.odenisler .FAQ .container .accordion ul li .bottom {
+  margin-top: 20px;
+  line-height: 25px;
+}
+.odenisler .FAQ .container .accordion ul li .bottom p {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 5px;
+}
+.odenisler .FAQ .container .accordion ul li .bottom a {
+  color: #058d66;
+  text-decoration: none;
+}
+.odenisler .FAQ .container .accordion ul li .top {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.odenisler .FAQ .container .accordion ul li .top .left {
+  font-size: 18px;
+}
+.odenisler .FAQ .container .accordion ul li .top .rightIcon h1 {
+  color: #058d66;
+  font-size: 40px;
+}
+.odenisler .active .left {
+  color: #058d66 !important;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.info .container {
+  width: 80%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  max-width: 1400px;
+}
+.info .container .main {
+  transform: translateX(-30%);
+  margin: 0px;
+}
+.info .container .main .head {
+  margin-bottom: 20px;
+  width: 550px;
+}
+.info .container .main .head h1 {
+  font-size: 35px;
+}
+.info .container .main .par {
+  width: 750px;
+}
+.info .container .main .par p {
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.odenisler {
+  width: 100%;
+}
+.odenisler .opening {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  background: #f1f9f7;
+}
+.odenisler .opening .container {
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/slider/payments.png");
+  background-repeat: no-repeat;
+  background-size: 450px;
+  background-position: 65%;
+  width: 80%;
+  padding: 120px 0px;
+  display: flex;
+  justify-content: center;
+  max-width: 1400px;
+}
+.odenisler .opening .container .main {
+  transform: translateX(-50%);
+}
+.odenisler .opening .container .main .head {
+  width: 600px;
+}
+.odenisler .opening .container .main .head h1 {
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+.odenisler .opening .container .main .par p {
+  color: rgba(0, 0, 0, 0.38);
+}
+.odenisler .opening .container .main a button {
+  cursor: pointer;
+  padding: 15px 40px;
+  background: #058d66;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.odenisler .proporsals {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.odenisler .proporsals .container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1400px;
+  margin-top: 120px;
+}
+.odenisler .proporsals .container .heading {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.odenisler .proporsals .container .heading h1 {
+  font-size: 30px;
+}
+.odenisler .proporsals .container .main {
+  width: 100%;
+}
+.odenisler .proporsals .container .main p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 19px;
+}
+.odenisler .proporsals .container .main ul {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+}
+.odenisler .proporsals .container .main ul li {
+  border-radius: 10px;
+  padding: 25px;
+  margin: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: 0.5s;
+}
+.odenisler .proporsals .container .main ul li:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.odenisler .special {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/payments/kob-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 430px;
+}
+.odenisler .special .container {
+  margin-top: 40px;
+  color: white;
+  width: 80%;
+}
+.odenisler .special .container .heading {
+  width: 500px;
+}
+.odenisler .special .container .heading h1 {
+  margin-bottom: 40px;
+  font-size: 45px;
+}
+.odenisler .special .container ul {
+  display: flex;
+  list-style: none;
+  margin-top: 50px;
+}
+.odenisler .special .container ul li {
+  margin-right: 40px;
+}
+.odenisler .special .container ul li h1 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+.odenisler .special .container ul li p {
+  font-size: 17px;
+}
+.odenisler .special .container a button {
+  cursor: pointer;
+  padding: 18px 40px;
+  font-size: 15px;
+  background: #058d66;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 70px;
+}
+
+.emekHaqqiLayihesi .advantages {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.emekHaqqiLayihesi .advantages .container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.emekHaqqiLayihesi .advantages .container .heading {
+  margin-bottom: 30px;
+}
+.emekHaqqiLayihesi .advantages .container .heading h1 {
+  font-size: 35px;
+}
+.emekHaqqiLayihesi .advantages .container .main {
+  display: flex;
+  flex-direction: column;
+}
+.emekHaqqiLayihesi .advantages .container .main .choice {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.emekHaqqiLayihesi .advantages .container .main .choice a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.emekHaqqiLayihesi .advantages .container .main .choice li a {
+  padding: 0px 4px 12px 4px;
+  position: relative;
+  color: rgba(0, 0, 0, 0.38);
+  cursor: pointer;
+}
+.emekHaqqiLayihesi .advantages .container .main .about {
+  position: absolute;
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  opacity: 1;
+  transition: 0.5s;
+}
+.emekHaqqiLayihesi .advantages .container .main .about li {
+  border: 10px;
+  width: calc((100% - 40px) / 3);
+  transition: 0.5s;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.emekHaqqiLayihesi .advantages .container .main .about li .right .icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.emekHaqqiLayihesi .advantages .container .main .about li .right .icon i {
+  font-size: 20px;
+}
+.emekHaqqiLayihesi .advantages .container .main .about li:first-child .left {
+  width: 210px;
+}
+.emekHaqqiLayihesi .advantages .container .main .about li:first-child .right .icon {
+  background: #f1f9f7;
+}
+.emekHaqqiLayihesi .advantages .container .main .about li:first-child .right .icon i {
+  color: #058d66;
+}
+.emekHaqqiLayihesi .advantages .container .main .about li:nth-child(2) .left {
+  width: 250px;
+}
+.emekHaqqiLayihesi .advantages .container .main .about li:nth-child(2) .right .icon {
+  background: #ffebf0;
+}
+.emekHaqqiLayihesi .advantages .container .main .about li:nth-child(2) .right .icon i {
+  color: red;
+}
+.emekHaqqiLayihesi .advantages .container .main .about li:last-child .left {
+  width: 240px;
+}
+.emekHaqqiLayihesi .advantages .container .main .about li:last-child .right .icon {
+  background: #fdf6e7;
+}
+.emekHaqqiLayihesi .advantages .container .main .about li:last-child .right .icon i {
+  color: orange;
+}
+.emekHaqqiLayihesi .advantages .container .main .about li .left .head h1 {
+  margin-bottom: 10px;
+}
+.emekHaqqiLayihesi .advantages .container .main .about li .left p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 17px;
+}
+.emekHaqqiLayihesi .advantages .container .main .about li:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.active a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 2.5px;
+  background: #058d66;
+}
+
+.hide {
+  opacity: 0 !important;
+}
+
+.emekHaqqiLayihesi {
+  letter-spacing: 0.5px;
+}
+.emekHaqqiLayihesi .bundles {
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+.emekHaqqiLayihesi .bundles .container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.emekHaqqiLayihesi .bundles .container .heading {
+  margin-bottom: 20px;
+}
+.emekHaqqiLayihesi .bundles .container .heading h1 {
+  font-size: 30px;
+}
+.emekHaqqiLayihesi .bundles .container .main {
+  margin-top: 20px;
+  text-align: center;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 {
+  display: flex;
+  gap: 20px;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 {
+  width: calc((100% - 40px) / 3);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .headingSecond {
+  margin-bottom: 30px;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .headingSecond h1 {
+  margin: 15px 0px 20px 0px;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .headingSecond p {
+  color: rgba(0, 0, 0, 0.6);
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .btn {
+  margin-top: 20px;
+  width: 100%;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .btn a button {
+  width: 100%;
+  padding: 10px 0px;
+  border-radius: 4px;
+  border: none;
+  background: #058d66;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .btn a button:hover {
+  opacity: 0.9;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .info {
+  display: flex;
+  flex-direction: column;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .info ul li {
+  display: flex;
+  text-align: start;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .info ul li i {
+  margin-right: 10px;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .info ul li i,
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .info ul li b {
+  color: #058d66;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .numbers {
+  margin-bottom: 30px;
+  width: 100%;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .numbers ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .numbers ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .numbers ul li i {
+  font-size: 25px;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .numbers ul li:last-child .right {
+  color: rgba(0, 0, 0, 0.6);
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .numbers ul li .right {
+  display: flex;
+  align-items: center;
+  color: #058d66;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .numbers ul li .right h1 {
+  font-size: 35px;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .numbers ul li .left {
+  display: flex;
+  gap: 10px;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .numbers ul li:nth-child(2) .left {
+  gap: 5px;
+  flex-direction: column;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .numbers ul li:nth-child(2) .left .bottom,
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .numbers ul li:nth-child(2) .left .top {
+  display: flex;
+  gap: 10px;
+}
+.emekHaqqiLayihesi .bundles .container .main .list3 .li3 .numbers ul li:last-child p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.emekHaqqiLayihesi .FAQ {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.emekHaqqiLayihesi .FAQ .container {
+  margin-top: 150px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.emekHaqqiLayihesi .FAQ .container .heading {
+  margin-bottom: 50px;
+}
+.emekHaqqiLayihesi .FAQ .container .heading h1 {
+  font-size: 30px;
+}
+.emekHaqqiLayihesi .FAQ .container .accordion ul {
+  list-style: none;
+}
+.emekHaqqiLayihesi .FAQ .container .accordion ul li {
+  margin: 10px 0px;
+  padding: 8px 16px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  height: 65px;
+  overflow: hidden;
+  transition: 0.5s !important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.emekHaqqiLayihesi .FAQ .container .accordion ul li .bottom {
+  margin-top: 20px;
+  line-height: 25px;
+}
+.emekHaqqiLayihesi .FAQ .container .accordion ul li .bottom p {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 5px;
+}
+.emekHaqqiLayihesi .FAQ .container .accordion ul li .bottom a {
+  color: #058d66;
+  text-decoration: none;
+}
+.emekHaqqiLayihesi .FAQ .container .accordion ul li .top {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.emekHaqqiLayihesi .FAQ .container .accordion ul li .top .left {
+  font-size: 18px;
+}
+.emekHaqqiLayihesi .FAQ .container .accordion ul li .top .rightIcon h1 {
+  color: #058d66;
+  font-size: 40px;
+}
+.emekHaqqiLayihesi .active .left {
+  color: #058d66 !important;
+}
+
+.emekHaqqiLayihesi {
+  margin-top: 80px;
+  width: 100%;
+}
+.emekHaqqiLayihesi .list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.emekHaqqiLayihesi .list .container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  max-width: 1400px;
+}
+.emekHaqqiLayihesi .list .container .main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.emekHaqqiLayihesi .list .container .main ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.emekHaqqiLayihesi .list .container .main ul li {
+  transition: 0.5s;
+  border-radius: 10px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.emekHaqqiLayihesi .list .container .main ul li .par p {
+  font-size: 25px;
+}
+.emekHaqqiLayihesi .list .container .main ul li .heading h1 {
+  font-size: 50px;
+}
+.emekHaqqiLayihesi .list .container .main ul li .heading i {
+  font-size: 40px;
+}
+.emekHaqqiLayihesi .list .container .main ul li:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.onlineCard {
+  margin-top: 100px;
+  background: linear-gradient(79.58deg, rgba(241, 249, 247, 0.56), rgba(224, 243, 241, 0.56) 41.84%, rgba(253, 246, 231, 0.56) 66.32%, rgba(255, 235, 240, 0.56));
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.onlineCard .container {
+  max-width: 1400px;
+  width: 70%;
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+}
+.onlineCard .container .all {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.onlineCard .container .all .left .heading h1 {
+  font-size: 50px;
+}
+.onlineCard .container .all .left .btn {
+  margin-top: 50px;
+}
+.onlineCard .container .all .left .btn a button {
+  padding: 15px 40px;
+  border: none;
+  background: #058d66;
+  color: white;
+  border-radius: 5px;
+}
+.onlineCard .container .all .right {
+  width: 500px;
+}
+.onlineCard .container .all .right img {
+  width: 550px;
+}
+
+.simpleSteps {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.simpleSteps .container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1400px;
+}
+.simpleSteps .container .heading {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.simpleSteps .container .heading h1 {
+  font-size: 30px;
+}
+.simpleSteps .container .main {
+  width: 100%;
+}
+.simpleSteps .container .main ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.simpleSteps .container .main ul li {
+  padding: 10px;
+  width: calc((100% - 30px) / 3);
+}
+.simpleSteps .container .main ul li:first-child .icon {
+  background: #f1f9f7;
+}
+.simpleSteps .container .main ul li:first-child .icon i {
+  color: #058d66;
+}
+.simpleSteps .container .main ul li:nth-child(2) .icon {
+  background: #ffebf0;
+}
+.simpleSteps .container .main ul li:nth-child(2) .icon i {
+  color: red;
+}
+.simpleSteps .container .main ul li:last-child .icon {
+  background: #fdf6e7;
+}
+.simpleSteps .container .main ul li:last-child .icon i {
+  color: orange;
+}
+.simpleSteps .container .main ul li .icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.simpleSteps .container .main ul li .icon i {
+  font-size: 22px;
+}
+.simpleSteps .container .main ul li .head {
+  margin-bottom: 10px;
+}
+.simpleSteps .container .main ul li .par {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+}
+
+.emekHaqqiLayihesi {
+  width: 100%;
+}
+.emekHaqqiLayihesi .slider {
+  margin-top: 20px;
+  width: 100%;
+  position: relative;
+}
+.emekHaqqiLayihesi .slider .prev,
+.emekHaqqiLayihesi .slider .next {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  position: absolute;
+  background: rgba(0, 125, 87, 0.08);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+  z-index: 4;
+}
+.emekHaqqiLayihesi .slider .prev i,
+.emekHaqqiLayihesi .slider .next i {
+  color: #058d66;
+}
+.emekHaqqiLayihesi .slider .prev:hover,
+.emekHaqqiLayihesi .slider .next:hover {
+  opacity: 0.9;
+}
+.emekHaqqiLayihesi .slider .prev {
+  left: 40px;
+}
+.emekHaqqiLayihesi .slider .next {
+  right: 40px;
+}
+.emekHaqqiLayihesi .slider .container {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+.emekHaqqiLayihesi .slider .container .slide {
+  min-width: 100%;
+  transition: 0.5s;
+  height: 500px;
+  width: 100%;
+}
+.emekHaqqiLayihesi .slider .container .slide:first-child {
+  background: linear-gradient(271.2deg, rgba(241, 249, 247, 0.56) -5.13%, rgba(224, 243, 241, 0.56) 30.4%, rgba(253, 246, 231, 0.56) 51.19%, rgba(255, 235, 240, 0.56) 79.79%);
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/salary-cards/Group393.svg");
+  background-position: 900px;
+  background-repeat: no-repeat;
+}
+.emekHaqqiLayihesi .slider .container .slide:nth-child(2) {
+  background: linear-gradient(70.71deg, rgba(241, 249, 247, 0.56) 0%, rgba(224, 243, 241, 0.56) 41.84%, rgba(253, 246, 231, 0.56) 66.32%, rgba(255, 235, 240, 0.56) 100%);
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/slider/salary-cards-tariffs.png");
+  background-position: 950px;
+  background-size: 450px;
+  background-repeat: no-repeat;
+}
+.emekHaqqiLayihesi .slider .container .slide:last-child {
+  background: linear-gradient(70.71deg, rgba(241, 249, 247, 0.56) 0%, rgba(224, 243, 241, 0.56) 41.84%, rgba(253, 246, 231, 0.56) 66.32%, rgba(255, 235, 240, 0.56) 100%);
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/slider/salary-cards.png");
+  background-position: 100%;
+  background-size: 650px;
+  background-repeat: no-repeat;
+}
+.emekHaqqiLayihesi .slider .container .slide .all {
+  width: 80%;
+  padding: 0px 20px;
+  margin: 0px auto;
+  margin-top: 100px;
+  display: flex;
+}
+.emekHaqqiLayihesi .slider .container .slide .all .left .head h1 {
+  font-size: 50px;
+  letter-spacing: 0.5px;
+}
+.emekHaqqiLayihesi .slider .container .slide .all .left .par p {
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 19px;
+}
+.emekHaqqiLayihesi .slider .container .slide .all .left .btn {
+  margin-top: 40px;
+}
+.emekHaqqiLayihesi .slider .container .slide .all .left .btn a {
+  text-decoration: none;
+}
+.emekHaqqiLayihesi .slider .container .slide .all .left .btn a:last-child button {
+  color: #058d66;
+  border: 1px solid #c5c7c6;
+  padding: 14px 25px;
+}
+.emekHaqqiLayihesi .slider .container .slide .all .left .btn a:first-child {
+  margin-right: 20px;
+}
+.emekHaqqiLayihesi .slider .container .slide .all .left .btn a:first-child button {
+  background: #058d66;
+  border: none;
+  padding: 14px 30px;
+  color: white;
+}
+.emekHaqqiLayihesi .slider .container .slide .all .left .btn a button {
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.emekHaqqiLayihesi .slider .container .slide .all .left .btn a button:hover {
+  opacity: 0.9;
+}
+
+.dot {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 2px;
+  background: transparent;
+  border-radius: 50%;
+  border: 2px solid #058d66;
+  display: inline-block;
+  transition: opacity 0.6s ease;
+  opacity: 0.5;
+}
+
+.dots {
+  position: absolute;
+  bottom: 20px;
+  z-index: 5;
+}
+
+.dot:hover {
+  opacity: 0.8;
+}
+
+.current {
+  opacity: 1 !important;
+}
+
+.SİFkreditləri {
+  width: 100%;
+  margin-top: 70px;
+  letter-spacing: 0.5px;
+}
+.SİFkreditləri .types {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.SİFkreditləri .types .container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  margin-top: 80px;
+}
+.SİFkreditləri .types .container .heading {
+  width: 100%;
+}
+.SİFkreditləri .types .container .heading h1 {
+  font-size: 45px;
+}
+.SİFkreditləri .types .container .heading p {
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.SİFkreditləri .types .container .main {
+  margin-top: 30px;
+  width: 100%;
+}
+.SİFkreditləri .types .container .main .list2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.SİFkreditləri .types .container .main .list2 .li5 {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.SİFkreditləri .types .container .main .list2 .li5:first-child {
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/discounted-loans.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.SİFkreditləri .types .container .main .list2 .li5:last-child {
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/equipment-loans.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+.SİFkreditləri .types .container .main .list2 .li5:last-child .extra {
+  margin-top: 15px;
+}
+.SİFkreditləri .types .container .main .list2 .li5:last-child .extra p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+}
+.SİFkreditləri .types .container .main .list2 .li5:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.SİFkreditləri .types .container .main .list2 .head {
+  width: 100%;
+}
+.SİFkreditləri .types .container .main .list2 .head h1 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.SİFkreditləri .types .container .main .list2 .head p {
+  font-size: 19px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.SİFkreditləri .types .container .main .list2 .info {
+  margin-top: 30px;
+  justify-content: start;
+}
+.SİFkreditləri .types .container .main .list2 .info ul {
+  list-style: none;
+  display: flex;
+  gap: 120px;
+}
+.SİFkreditləri .types .container .main .list2 .info ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.SİFkreditləri .types .container .main .list2 .info ul li p {
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 15px;
+}
+.SİFkreditləri .types .container .main .list2 .btn {
+  margin-top: 30px;
+}
+.SİFkreditləri .types .container .main .list2 .btn a {
+  text-decoration: none;
+}
+.SİFkreditləri .types .container .main .list2 .btn a button {
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.SİFkreditləri .types .container .main .list2 .btn a:last-child button {
+  padding: 15px 40px !important;
+  font-size: 15px;
+  color: #058d66;
+  background: transparent;
+}
+.SİFkreditləri .types .container .main .list2 .btn a:last-child button:hover {
+  background-color: #f4f5f4;
+}
+
+.SİFkreditləri {
+  margin-top: 70px;
+  width: 100%;
+}
+.SİFkreditləri .opening {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/Slider.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 150px;
+  background-position: 100%;
+  height: 460px;
+}
+.SİFkreditləri .opening .container {
+  width: 80%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.SİFkreditləri .opening .container .main {
+  margin-top: 80px;
+}
+.SİFkreditləri .opening .container .main .heading h1 {
+  margin: 20px 0px;
+  font-size: 50px;
+}
+.SİFkreditləri .opening .container .main .heading p {
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+}
+.SİFkreditləri .opening .container .main .heading p i {
+  margin: 0px 20px;
+  font-size: 10px;
+}
+.SİFkreditləri .opening .container .image img {
+  position: absolute;
+  width: 580px;
+  height: 450px;
+  right: 100px;
+  top: 2px;
+}
+
+.tarifler {
+  height: 1800px;
+  margin-bottom: 100px;
+}
+.tarifler .info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.tarifler .info .container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-top: 110px;
+  gap: 70px;
+}
+.tarifler .info .container th,
+.tarifler .info .container td {
+  text-align: start;
+  padding: 20px;
+}
+.tarifler .info .container th p,
+.tarifler .info .container td p {
+  color: black;
+}
+.tarifler .info .container .row1 h1 {
+  color: #058d66;
+}
+.tarifler .info .container .row1 p {
+  font-size: 18px;
+}
+.tarifler .info .container .row3 h1 {
+  color: #058d66;
+  font-size: 20px;
+}
+.tarifler .info .container .row4 h1 {
+  font-size: 15px;
+}
+.tarifler .info .container .row4 h1 b {
+  color: #058d66;
+}
+.tarifler .info .container .row5 h1 {
+  font-size: 16px;
+}
+.tarifler .info .container .row5 h1 b {
+  color: #058d66;
+}
+.tarifler .info .container .row6 h1 {
+  font-size: 16px;
+}
+.tarifler .info .container .row6 h1 b {
+  color: #058d66;
+}
+.tarifler .info .container .row7 h1 {
+  font-size: 16px;
+}
+.tarifler .info .container .row8 h1 {
+  font-size: 16px;
+}
+.tarifler .info .container .row8 h1 b {
+  color: #058d66;
+}
+.tarifler .info .container .row9 h1 {
+  font-size: 16px;
+}
+.tarifler .info .container .row9 h1 b {
+  color: #058d66;
+}
+.tarifler .info .container .row10 h1 {
+  font-size: 16px;
+}
+.tarifler .info .container .row10 b {
+  color: #058d66;
+}
+.tarifler .info .container .row11 h1 {
+  font-size: 14px;
+}
+.tarifler .info .container .row12 h1 {
+  font-size: 14px;
+}
+.tarifler .info .container .buttons a button {
+  cursor: pointer;
+  background: #e0f3ed;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-align: center;
+  border: none;
+  color: #058d66;
+  font-size: 14px;
+}
+.tarifler .info .container .buttons a button:hover {
+  background: #058d66;
+  color: white;
+}
+
+.tarifler {
+  width: 100%;
+}
+
+.tarifler .opening {
+  width: 100%;
+  height: 250px;
+  margin-top: 100px;
+  background: linear-gradient(45deg, rgba(242, 217, 2, 0.15), rgba(15, 221, 171, 0.15) 96.87%);
+  display: flex;
+  justify-content: center;
+}
+.tarifler .opening .container {
+  margin-top: 50px;
+  width: 80%;
+}
+.tarifler .opening .container h1 {
+  margin-bottom: 30px;
+  font-size: 33px;
+}
+.tarifler .opening .container p {
+  color: rgba(0, 0, 0, 0.38);
+  font-size: 20px;
+}
+
+.umicoMasterPass .def {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.umicoMasterPass .def .container {
+  width: 80%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.umicoMasterPass .def .container .heading {
+  margin-bottom: 40px;
+}
+.umicoMasterPass .def .container .heading h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.umicoMasterPass .def .container .heading p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+}
+.umicoMasterPass .def .container .main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.umicoMasterPass .def .container .main ul {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.umicoMasterPass .def .container .main ul li {
+  padding: 20px;
+  width: calc((100% - 20px) / 2);
+  display: flex;
+  justify-content: space-between;
+}
+.umicoMasterPass .def .container .main ul li p {
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 10px;
+}
+
+.umicoMasterPass .final {
+  margin-top: 70px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(240, 245, 255);
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/umico/umico-secondary-carusel.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 800px 0px;
+  padding-bottom: 150px;
+  height: 460px;
+}
+.umicoMasterPass .final .container {
+  width: 80%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.umicoMasterPass .final .container .main {
+  margin-top: 50px;
+}
+.umicoMasterPass .final .container .main .heading a {
+  text-decoration: none;
+}
+.umicoMasterPass .final .container .main .heading a button {
+  font-size: 15px;
+  padding: 12px 45px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 5px;
+  margin-top: 40px;
+  background: #058d66;
+  color: white;
+}
+.umicoMasterPass .final .container .main .heading a button:hover {
+  opacity: 0.8;
+}
+.umicoMasterPass .final .container .main .heading h1 {
+  margin: 20px 0px;
+  font-size: 50px;
+}
+
+.umicoMasterPass {
+  margin-top: 70px;
+  width: 100%;
+}
+.umicoMasterPass .opening {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(240, 245, 255);
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/umico/umico-main-carusel.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 900px 0px;
+  padding-bottom: 150px;
+  height: 460px;
+}
+.umicoMasterPass .opening .container {
+  width: 80%;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.umicoMasterPass .opening .container .main {
+  margin-top: 50px;
+}
+.umicoMasterPass .opening .container .main .heading a {
+  text-decoration: none;
+}
+.umicoMasterPass .opening .container .main .heading a button {
+  font-size: 15px;
+  padding: 12px 45px;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 5px;
+  margin-top: 40px;
+  background: #058d66;
+  color: white;
+}
+.umicoMasterPass .opening .container .main .heading a button:hover {
+  opacity: 0.8;
+}
+.umicoMasterPass .opening .container .main .heading h1 {
+  margin: 20px 0px;
+  font-size: 50px;
+}
+.umicoMasterPass .opening .container .main .heading p {
+  color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+}
+.umicoMasterPass .opening .container .main .heading p i {
+  margin: 0px 20px;
+  font-size: 10px;
+}
+
+.umicoMasterPass .extra {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.umicoMasterPass .extra .container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+.umicoMasterPass .extra .container .main {
+  width: 100%;
+  padding: 0px 20px;
+}
+.umicoMasterPass .extra .container .main h1 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+.umicoMasterPass .extra .container .main p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+}
+
+.umicoMasterPass .connect {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.umicoMasterPass .connect .container {
+  width: 80%;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.umicoMasterPass .connect .container .heading {
+  margin-bottom: 40px;
+}
+.umicoMasterPass .connect .container .heading h1 {
+  font-size: 35px;
+}
+.umicoMasterPass .connect .container .main {
+  width: 100%;
+}
+.umicoMasterPass .connect .container .main ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.umicoMasterPass .connect .container .main ul li {
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: 0.5s;
+  width: calc((100% - 40px) / 3);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+}
+.umicoMasterPass .connect .container .main ul li:nth-child(2) .btn {
+  margin-top: 35px !important;
+}
+.umicoMasterPass .connect .container .main ul li:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.umicoMasterPass .connect .container .main ul li .top button {
+  opacity: 0.8;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+.umicoMasterPass .connect .container .main ul li .head {
+  margin-top: 20px;
+}
+.umicoMasterPass .connect .container .main ul li .head h1 {
+  font-size: 20px;
+}
+.umicoMasterPass .connect .container .main ul li .head p {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+}
+.umicoMasterPass .connect .container .main ul li .btn {
+  margin-top: 50px;
+}
+.umicoMasterPass .connect .container .main ul li .btn a {
+  text-decoration: none;
+}
+.umicoMasterPass .connect .container .main ul li .btn a button {
+  cursor: pointer;
+  font-size: 15px;
+  border: none;
+  background: transparent;
+  color: #058d66;
+  display: flex;
+  align-items: center;
+}
+.umicoMasterPass .connect .container .main ul li .btn a button i {
+  margin-left: 10px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.87) !important;
+  font-family: "Gothic A1", sans-serif !important;
+  font-weight: 400;
+}
+
+.biznesUcunHesab .bundle .container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.biznesUcunHesab .bundle .container .heading {
+  max-width: 700px;
+}
+
+.container {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: 0.4s;
+}
+
+.show {
+  opacity: 1 !important;
+  transform: translateY(0px) !important;
+}
+
+.loading {
+  transition: 0.5s;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  background: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.loading h1 {
+  font-weight: 300;
+  color: rgb(170, 170, 170);
+}
+.loading .container {
+  width: 100%;
+  height: 100%;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loading .container svg {
+  width: 100px;
+  height: 100px;
+  animation-name: loading;
+  animation-duration: 2s;
+}
+
+@keyframes backgroundHide {
+  0% {
+    opacity: 1;
+  }
+  13% {
+    opacity: 0.9;
+  }
+  25% {
+    opacity: 0.8;
+  }
+  37% {
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  63% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.4;
+  }
+  87% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+@keyframes loading {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.loaded {
+  opacity: 0 !important;
+}
+
+.second {
+  display: none !important;
+}/*# sourceMappingURL=style.css.map */

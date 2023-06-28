@@ -1,0 +1,47 @@
+.mainPage .information {
+  letter-spacing: 0.5px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/main-page/online-bank.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: 650px;
+  & .container {
+    width: 90%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: start;
+    & .main {
+      display: flex;
+      flex-direction: column;
+      width: 490px;
+
+      & .heading {
+        margin-bottom: 40px;
+        & h1 {
+          font-size: 30px;
+          font-weight: 400;
+        }
+      }
+      & .info {
+        width: 260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        & div {
+          margin-bottom: 20px;
+        }
+        & h1 {
+          margin-bottom: 10px;
+          font-weight: 400;
+        }
+        & p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

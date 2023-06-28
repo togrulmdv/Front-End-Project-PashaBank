@@ -1,0 +1,134 @@
+.bankQarantiyasi {
+  & .advantages {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    & .container {
+      padding: 0px 20px;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      & .extra {
+        margin-top: 80px;
+        & h1 {
+          font-size: 35px;
+        }
+        & p {
+          margin-top: 25px;
+          color: $secondPcolor;
+          font-size: 18px;
+        }
+      }
+
+      & .main {
+        display: flex;
+        flex-direction: column;
+        & .choice {
+          & a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+          }
+          display: flex;
+          list-style: none;
+          gap: 20px;
+          & li {
+            & a {
+              padding: 0px 4px 12px 4px;
+              position: relative;
+              color: $mainPcolor;
+              cursor: pointer;
+            }
+          }
+        }
+        & .about {
+          margin-top: 50px;
+          display: flex;
+          gap: 10px;
+          transition: 0.5s;
+          width: 100%;
+
+          & li {
+            width: calc((100% - 20px) / 4);
+            transition: 0.5s;
+            padding: 20px 0px;
+            display: flex;
+            flex-direction: column;
+            & .head {
+              margin-top: 20px;
+              margin-bottom: 10px;
+            }
+            & .par {
+              & p {
+                color: $secondPcolor;
+                font-size: 17px;
+              }
+            }
+            & .icon {
+              width: 60px;
+              height: 60px;
+              border-radius: 50%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              & i {
+                font-size: 24px;
+              }
+            }
+            &:first-child {
+              & .icon {
+                background: rgb(224, 243, 237);
+                & i {
+                  color: $mainButtonColor;
+                }
+              }
+            }
+            &:nth-child(2) {
+              & .icon {
+                background: rgb(255, 235, 240);
+                & i {
+                  color: red;
+                }
+              }
+            }
+            &:nth-child(3) {
+              & .icon {
+                background: rgb(253, 246, 231);
+                & i {
+                  color: orange;
+                }
+              }
+            }
+            &:last-child {
+              & .icon {
+                background: rgb(231, 244, 249);
+                & i {
+                  color: blue;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.active {
+  & a {
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      width: 100%;
+      height: 2.5px;
+      background: $mainButtonColor;
+    }
+  }
+}
+
+.hide {
+  display: none !important;
+}

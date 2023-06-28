@@ -1,0 +1,51 @@
+.odenisler {
+  width: 100%;
+
+  & .opening {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background: #f1f9f7;
+
+    & .container {
+      background-image: url("https://sme.pashabank.az/themes/sme/assets/images/slider/payments.png");
+      background-repeat: no-repeat;
+      background-size: 450px;
+      background-position: 65%;
+      width: 80%;
+      padding: 120px 0px;
+      display: flex;
+      justify-content: center;
+      max-width: 1400px;
+
+      & .main {
+        transform: translateX(-50%);
+        & .head {
+          width: 600px;
+          & h1 {
+            font-size: 45px;
+            margin-bottom: 40px;
+          }
+        }
+        & .par {
+          & p {
+            color: $mainPcolor;
+          }
+        }
+
+        & a {
+          & button {
+            cursor: pointer;
+            padding: 15px 40px;
+            background: $mainButtonColor;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-top: 40px;
+          }
+        }
+      }
+    }
+  }
+}
